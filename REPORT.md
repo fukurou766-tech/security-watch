@@ -1,11 +1,12 @@
 # 🛡️ 脆弱性情報ダッシュボード
 
-**最終取得：2026-10-22 23:29 JST**
+**最終取得：2026-10-22 23:44 JST**
 
 **取得件数：55件**（CISA直近35件・JVN最大40件）
 
 > ※CISA KEVは「悪用確認済み」の一覧です。掲載製品が自分の環境に影響するかは、バージョン等の確認が必要です。
-> 翻訳状況：新規翻訳 0件 / 翻訳失敗 46件（過去の翻訳はキャッシュを再利用）
+> 翻訳状況：新規翻訳 0件 / 翻訳失敗 1件 / 今回未翻訳 45件（過去の翻訳はキャッシュを再利用）  
+> ⚠️ 翻訳サービスのアクセス制限を検出しました。次回実行時に再試行します。
 
 
 ## データ取得状況
@@ -23,7 +24,7 @@ Microsoft Windows Shell contains a command injection vulnerability that allows a
 
 **対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-> ⚠️ 自動翻訳に失敗したため、上記は英語原文です。
+> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -37,7 +38,7 @@ ONLYOFFICE Docs contains a path traversal vulnerability that can occur when JWT 
 
 **対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-> ⚠️ 自動翻訳に失敗したため、上記は英語原文です。
+> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -51,7 +52,7 @@ Microsoft SharePoint contains a code injection vulnerability which could allow a
 
 **対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-> ⚠️ 自動翻訳に失敗したため、上記は英語原文です。
+> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -139,7 +140,7 @@ EG Secure Solutions SiteGuard Server Edition contains an OS command injection vu
 
 **対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-> ⚠️ 自動翻訳に失敗したため、上記は英語原文です。
+> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -153,7 +154,7 @@ Plex Media Server contains an external control of file name or path vulnerabilit
 
 **対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-> ⚠️ 自動翻訳に失敗したため、上記は英語原文です。
+> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -167,7 +168,7 @@ Plex Media Server contains a server-side request forgery (SSRF) vulnerability th
 
 **対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-> ⚠️ 自動翻訳に失敗したため、上記は英語原文です。
+> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -181,7 +182,7 @@ Plex Media Server contains an improper neutralization of encoded URI schemes in 
 
 **対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-> ⚠️ 自動翻訳に失敗したため、上記は英語原文です。
+> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -195,7 +196,7 @@ Plex Media Server contains a server-side request forgery (SSRF) vulnerability wh
 
 **対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-> ⚠️ 自動翻訳に失敗したため、上記は英語原文です。
+> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -209,7 +210,7 @@ Siemens Software Center contains an uncontrolled search path element vulnerabili
 
 **対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-> ⚠️ 自動翻訳に失敗したため、上記は英語原文です。
+> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -271,7 +272,7 @@ BeyondTrust Remote Support contains an authentication bypass by spoofing vulnera
 
 **対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-> ⚠️ 自動翻訳に失敗したため、上記は英語原文です。
+> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -285,7 +286,7 @@ FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager contain a path traversal v
 
 **対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-> ⚠️ 自動翻訳に失敗したため、上記は英語原文です。
+> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -323,7 +324,7 @@ Multiple Atlassian products (Bitbucket Data Center ,Confluence Data Center, Jira
 
 **対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-> ⚠️ 自動翻訳に失敗したため、上記は英語原文です。
+> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -409,7 +410,7 @@ Ahsay AhsayCBS contains a command injection vulnerability that could allow a rem
 
 **対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-> ⚠️ 自動翻訳に失敗したため、上記は英語原文です。
+> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -423,7 +424,7 @@ Cisco Secure Email Gateway contains a relative path traversal vulnerability that
 
 **対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-> ⚠️ 自動翻訳に失敗したため、上記は英語原文です。
+> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -437,7 +438,7 @@ Ahsay AhsayCBS contains an improper authentication vulnerability that could allo
 
 **対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-> ⚠️ 自動翻訳に失敗したため、上記は英語原文です。
+> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -451,7 +452,7 @@ Palo Alto Networks PAN-OS contains a code injection vulnerability that could all
 
 **対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-> ⚠️ 自動翻訳に失敗したため、上記は英語原文です。
+> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -489,7 +490,7 @@ Ivanti Connect Secure contains an authentication bypass by spoofing vulnerabilit
 
 **対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-> ⚠️ 自動翻訳に失敗したため、上記は英語原文です。
+> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -503,7 +504,7 @@ ISC BIND contains a data processing errors vulnerability that could allow remote
 
 **対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-> ⚠️ 自動翻訳に失敗したため、上記は英語原文です。
+> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -517,7 +518,7 @@ Apache Struts contains a command injection vulnerability that could allow remote
 
 **対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-> ⚠️ 自動翻訳に失敗したため、上記は英語原文です。
+> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -531,7 +532,7 @@ Strapi contains a cleartext storage of sensitive information vulnerability that 
 
 **対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-> ⚠️ 自動翻訳に失敗したため、上記は英語原文です。
+> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -545,7 +546,7 @@ ProFTPD contains an improper access control vulnerability that could allow remot
 
 **対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-> ⚠️ 自動翻訳に失敗したため、上記は英語原文です。
+> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -559,7 +560,7 @@ Citrix NetScaler ADC (formerly Citrix ADC) and Citrix NetScaler Gateway (formerl
 
 **対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-> ⚠️ 自動翻訳に失敗したため、上記は英語原文です。
+> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -573,7 +574,7 @@ Zammad GmbH Zammad contains an improper privilege management vulnerability that 
 
 **対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
 
-> ⚠️ 自動翻訳に失敗したため、上記は英語原文です。
+> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
