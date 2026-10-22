@@ -27,7 +27,9 @@ jobs:
         run: python -m pip install 'deep-translator==1.11.4'
       - name: Fetch security information
         run: python update.py
-      - name: Generate Japanese report
+            - name: Generate Japanese report
+        env:
+          DEEPL_API_KEY: $&#123;&#123;                secrets.DEEPL_API_KEY &#125;&#125;
         run: python report.py
       - name: Save report and translation cache
         run: |
