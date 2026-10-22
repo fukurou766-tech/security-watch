@@ -37,3 +37,4 @@ jobs:
           if ! git diff --cached --quiet; then
             git commit -m 'Update daily security report (Japanese)'
             git push
+            fi
