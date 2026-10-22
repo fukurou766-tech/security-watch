@@ -3,7 +3,7 @@ name: Daily Security Watch
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 0 * * *' # 毎日9:17 JST（遅延することがあります）
+    - cron: '30 23 * * *'
 
 permissions:
   contents: write
