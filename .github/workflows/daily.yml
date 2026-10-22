@@ -3,38 +3,37 @@ name: Daily Security Watch
 on:
   workflow_dispatch:
   schedule:
-    # 毎日 09:17 JST (00:17 UTC)
-    - cron: '17 0 * * *'
+    - cron: '17 0 * * *' # 毎日9:17 JST（遅延することがあります）
 
 permissions:
   contents: write
 
+concurrency:
+  group: security-watch-daily
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-
+    timeout-minutes: 15
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
+      - name: Install free translation library
+        run: python -m pip install 'deep-translator==1.11.4'
       - name: Fetch security information
         run: python update.py
-
       - name: Generate Japanese report
         run: python report.py
-
-      - name: Save updated report
+      - name: Save report and translation cache
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add REPORT.md
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add REPORT.md data.json translation_cache.json
           if ! git diff --cached --quiet; then
-            git commit -m "Update daily security report"
+            git commit -m 'Update daily security report (Japanese)'
             git push
-          fi
