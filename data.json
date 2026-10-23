@@ -1,9 +1,31 @@
 {
-  "updated": "2026-10-23 09:02 JST",
+  "updated": "2026-10-24 08:50 JST",
   "items": [
     {
+      "source": "CISA KEV",
+      "date": "2026-10-23",
+      "title": "Arista VeloCloud Orchestrator — CVE-2026-114625",
+      "description": "Arista VeloCloud Orchestrator on-prem contains a SQL injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-114625",
+      "priority": "緊急（悪用確認）",
+      "search": "arista velocloud orchestrator cve-2026-114625"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-10-23",
+      "title": "Collabora Collabora Online – Built-in CODE Server — CVE-2026-110447",
+      "description": "Collabora Collabora Online – Built-in CODE Server when used within the NextCloud platform contains an OS command injection vulnerability that allows for remote code execution when the CODE server isn't running.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-110447",
+      "priority": "緊急（悪用確認）",
+      "search": "collabora collabora online – built-in code server cve-2026-110447"
+    },
+    {
       "source": "JVN",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "title": "PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）",
       "description": "The PHP Groupから、PHPの2件の脆弱性（CVE-2026-109618、CVE-2026-109619）に対してアドバイザリが公開されました。",
       "action": "公式の対策情報を確認してください。",
@@ -11,6 +33,39 @@
       "cve": "",
       "priority": "要確認",
       "search": "phpにおける複数の任意のコードが実行可能な脆弱性（cve-2026-109618、cve-2026-109619） the php groupから、phpの2件の脆弱性（cve-2026-109618、cve-2026-109619）に対してアドバイザリが公開されました。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-10-23",
+      "title": "プリザンターのLDAP認証における認証不備の脆弱性",
+      "description": "株式会社インプリムが提供するプリザンターのLDAP認証には、認証不備の脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/jp/JVN82312317/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "プリザンターのldap認証における認証不備の脆弱性 株式会社インプリムが提供するプリザンターのldap認証には、認証不備の脆弱性が存在します。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-10-23",
+      "title": "三菱電機製の複数製品における複数の脆弱性（2026-006）",
+      "description": "三菱電機株式会社が提供するGENESIS、GENESIS64、ICONICS Suite、Hyper Historian、AnalytiX、MobileHMI、IoTWorX、MC Works64、GENESIS32およびBizVizには、複数の脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU93251594/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "三菱電機製の複数製品における複数の脆弱性（2026-006） 三菱電機株式会社が提供するgenesis、genesis64、iconics suite、hyper historian、analytix、mobilehmi、iotworx、mc works64、genesis32およびbizvizには、複数の脆弱性が存在します。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-10-23",
+      "title": "CISA ICS Advisory / ICS Medical Advisory（2026年10月22日）",
+      "description": "米国CISAがCISA ICS Advisory / ICS Medical Advisoryを公表しました。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU98747108/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "cisa ics advisory / ics medical advisory（2026年10月22日） 米国cisaがcisa ics advisory / ics medical advisoryを公表しました。"
     },
     {
       "source": "JVN",
@@ -288,17 +343,6 @@
       "search": "複数のtlsライブラリにおける名前制約回避の問題 cert/ccから本件に関するアドバイザリが公表されました。"
     },
     {
-      "source": "JVN",
-      "date": "2026-10-15",
-      "title": "Bishengにおける複数の認証回避の脆弱性",
-      "description": "CERT/CCから本件に関するアドバイザリが公表されました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU94697946/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "bishengにおける複数の認証回避の脆弱性 cert/ccから本件に関するアドバイザリが公表されました。"
-    },
-    {
       "source": "CISA KEV",
       "date": "2026-10-14",
       "title": "Ahsay AhsayCBS — CVE-2026-105134",
@@ -341,28 +385,6 @@
       "cve": "CVE-2026-0322",
       "priority": "緊急（悪用確認）",
       "search": "palo alto networks pan-os cve-2026-0322"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-10-14",
-      "title": "EC-CUBE4系用プラグイン「AmazonPayプラグイン」における不変と想定しているWebパラメータの外部制御の脆弱性",
-      "description": "株式会社イーシーキューブが提供するEC-CUBE4系用プラグイン「AmazonPayプラグイン」には、不変と想定しているWebパラメータの外部制御の脆弱性が存在します。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/jp/JVN43511918/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "ec-cube4系用プラグイン「amazonpayプラグイン」における不変と想定しているwebパラメータの外部制御の脆弱性 株式会社イーシーキューブが提供するec-cube4系用プラグイン「amazonpayプラグイン」には、不変と想定しているwebパラメータの外部制御の脆弱性が存在します。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-10-14",
-      "title": "SiteGuard Server EditionにおけるOSコマンドインジェクションの脆弱性",
-      "description": "EGセキュアソリューションズ株式会社が提供するSiteGuard Server Editionには、OSコマンドインジェクションの脆弱性が存在します。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/jp/JVN88474777/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "siteguard server editionにおけるosコマンドインジェクションの脆弱性 egセキュアソリューションズ株式会社が提供するsiteguard server editionには、osコマンドインジェクションの脆弱性が存在します。"
     },
     {
       "source": "CISA KEV",
@@ -583,28 +605,6 @@
       "cve": "CVE-2026-71362",
       "priority": "緊急（悪用確認）",
       "search": "adobe commerce and magento cve-2026-71362"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-09-22",
-      "title": "Arista VeloCloud Orchestrator — CVE-2026-93952",
-      "description": "Arista VeloCloud Orchestrator (VCO) on-prem contains an improper input validation vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-93952",
-      "priority": "緊急（悪用確認）",
-      "search": "arista velocloud orchestrator cve-2026-93952"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-09-22",
-      "title": "F5 BIG-IP APM — CVE-2026-94127",
-      "description": "F5 BIG-IP APM contains a heap-based buffer overflow vulnerability when access policy and an OAuth profile are configured on a virtual server. This vulnerability could allow an unauthenticated attacker to perform remote code execution.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-94127",
-      "priority": "緊急（悪用確認）",
-      "search": "f5 big-ip apm cve-2026-94127"
     }
   ],
   "warnings": [],
