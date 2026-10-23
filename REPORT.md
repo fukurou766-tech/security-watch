@@ -1,12 +1,11 @@
 # 🛡️ 脆弱性情報ダッシュボード
 
-**最終取得：2026-10-23 08:36 JST**
+**最終取得：2026-10-23 09:02 JST**
 
 **取得件数：55件**（CISA直近35件・JVN最大40件）
 
 > ※CISA KEVは「悪用確認済み」の一覧です。掲載製品が自分の環境に影響するかは、バージョン等の確認が必要です。
-> 翻訳状況：新規翻訳 0件 / 翻訳失敗 1件 / 今回未翻訳 45件（過去の翻訳はキャッシュを再利用）  
-> ⚠️ 翻訳サービスのアクセス制限を検出しました。次回実行時に再試行します。
+> DeepL翻訳状況：新規翻訳 24件 / 翻訳失敗 0件 / 今回未翻訳 0件（キャッシュ再利用あり）
 
 
 ## データ取得状況
@@ -20,11 +19,9 @@
 
 **緊急（悪用確認）** · CISA KEV · 2026-10-13
 
-Microsoft Windows Shell contains a command injection vulnerability that allows an unauthorized attacker to bypass a security feature over a network.
+Microsoft Windows Shell には、権限のない攻撃者がネットワーク経由でセキュリティ機能を迂回することを可能にするコマンドインジェクションの脆弱性が存在します。
 
-**対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-
-> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
+**対策：** ベンダーの指示に従って緩和措置を適用し、CISAのBOD 26-04「リスクに基づくセキュリティ更新プログラムの優先順位付け」（注記のURLを参照）およびCISAの「フォレンジック・トリアージ要件」（注記のURLを参照）への準拠を確保してください。 クラウドサービスについては、該当するBOD 26-04のガイダンスに従うか、緩和策が利用できない場合は当該製品の使用を中止してください。各資産のインターネットへの露出状況を評価し、BOD 26-04のパッチ適用ガイドラインを確実に遵守することは、関係者の責任です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -34,11 +31,9 @@ Microsoft Windows Shell contains a command injection vulnerability that allows a
 
 **緊急（悪用確認）** · CISA KEV · 2026-10-08
 
-ONLYOFFICE Docs contains a path traversal vulnerability that can occur when JWT is used, via a /.. sequence in an image upload parameter and could allow for remote code execution.
+ONLYOFFICE Docsには、JWTが使用されている場合に、画像アップロードパラメータ内の「/..」という文字列を介して発生する可能性のあるパストラバーサル脆弱性が存在し、これによりリモートコード実行が可能となる恐れがあります。
 
-**対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-
-> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
+**対策：** ベンダーの指示に従って緩和措置を適用し、CISAのBOD 26-04「リスクに基づくセキュリティ更新プログラムの優先順位付け」（注記のURLを参照）およびCISAの「フォレンジック・トリアージ要件」（注記のURLを参照）への準拠を確保してください。 クラウドサービスについては、該当するBOD 26-04のガイダンスに従うか、緩和策が利用できない場合は当該製品の使用を中止してください。各資産のインターネットへの露出状況を評価し、BOD 26-04のパッチ適用ガイドラインを確実に遵守することは、関係者の責任です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -48,11 +43,9 @@ ONLYOFFICE Docs contains a path traversal vulnerability that can occur when JWT 
 
 **緊急（悪用確認）** · CISA KEV · 2026-09-25
 
-Microsoft SharePoint contains a code injection vulnerability which could allow an authorized attacker to execute code over a network.
+Microsoft SharePoint には、権限を持つ攻撃者がネットワーク経由でコードを実行できる可能性のあるコードインジェクションの脆弱性が存在します。
 
-**対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-
-> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
+**対策：** ベンダーの指示に従って緩和措置を適用し、CISAのBOD 26-04「リスクに基づくセキュリティ更新プログラムの優先順位付け」（注記のURLを参照）およびCISAの「フォレンジック・トリアージ要件」（注記のURLを参照）への準拠を確保してください。 クラウドサービスについては、該当するBOD 26-04のガイダンスに従うか、緩和策が利用できない場合は当該製品の使用を中止してください。各資産のインターネットへの露出状況を評価し、BOD 26-04のパッチ適用ガイドラインを確実に遵守することは、関係者の責任です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -136,11 +129,9 @@ CERT/CCから本件に関するアドバイザリが公表されました。
 
 **緊急（悪用確認）** · CISA KEV · 2026-10-20
 
-EG Secure Solutions SiteGuard Server Edition contains an OS command injection vulnerability which may allow an attacker to execute arbitrary OS commands with root or SYSTEM privileges on the system running the affected product.
+EG Secure Solutions SiteGuard Server Edition には、OS コマンドインジェクションの脆弱性が存在します。この脆弱性を悪用すると、攻撃者が、当該製品が実行されているシステム上で、root または SYSTEM の権限で任意の OS コマンドを実行できる可能性があります。
 
-**対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-
-> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
+**対策：** ベンダーの指示に従って緩和措置を適用し、CISAのBOD 26-04「リスクに基づくセキュリティ更新プログラムの優先順位付け」（注記のURLを参照）およびCISAの「フォレンジック・トリアージ要件」（注記のURLを参照）への準拠を確保してください。 クラウドサービスについては、該当するBOD 26-04のガイダンスに従うか、緩和策が利用できない場合は当該製品の使用を中止してください。各資産のインターネットへの露出状況を評価し、BOD 26-04のパッチ適用ガイドラインを確実に遵守することは、関係者の責任です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -150,11 +141,9 @@ EG Secure Solutions SiteGuard Server Edition contains an OS command injection vu
 
 **緊急（悪用確認）** · CISA KEV · 2026-10-20
 
-Plex Media Server contains an external control of file name or path vulnerability which can allow an admin user to write arbitrary files that may be executed on load. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96655.
+Plex Media Server には、ファイル名またはパスに関する外部制御の脆弱性が存在し、これにより管理者ユーザーが、読み込み時に実行される可能性のある任意のファイルを書き込むことが可能になります。 この脆弱性は、CVE-2026-96652、CVE-2026-96654、およびCVE-2026-96655と連鎖して悪用される可能性があります。
 
-**対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-
-> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
+**対策：** ベンダーの指示に従って緩和措置を適用し、CISAのBOD 26-04「リスクに基づくセキュリティ更新プログラムの優先順位付け」（注記のURLを参照）およびCISAの「フォレンジック・トリアージ要件」（注記のURLを参照）への準拠を確保してください。 クラウドサービスについては、該当するBOD 26-04のガイダンスに従うか、緩和策が利用できない場合は当該製品の使用を中止してください。各資産のインターネットへの露出状況を評価し、BOD 26-04のパッチ適用ガイドラインを確実に遵守することは、関係者の責任です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -164,11 +153,9 @@ Plex Media Server contains an external control of file name or path vulnerabilit
 
 **緊急（悪用確認）** · CISA KEV · 2026-10-20
 
-Plex Media Server contains a server-side request forgery (SSRF) vulnerability that could allow an authenticated user to request arbitrary internal or external addresses via the '/video/:/transcode/universal' path parameter. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96656.
+Plex Media Server には、サーバーサイドリクエストフォージェリ（SSRF）の脆弱性が存在し、認証済みのユーザーが「/video/:/transcode/universal」というパスパラメータを介して、任意の内部または外部のアドレスへのリクエストを送信できる可能性があります。 この脆弱性は、CVE-2026-96652、CVE-2026-96654、およびCVE-2026-96656と連鎖して悪用される可能性があります。
 
-**対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-
-> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
+**対策：** ベンダーの指示に従って緩和措置を適用し、CISAのBOD 26-04「リスクに基づくセキュリティ更新プログラムの優先順位付け」（注記のURLを参照）およびCISAの「フォレンジック・トリアージ要件」（注記のURLを参照）への準拠を確保してください。 クラウドサービスについては、該当するBOD 26-04のガイダンスに従うか、緩和策が利用できない場合は当該製品の使用を中止してください。各資産のインターネットへの露出状況を評価し、BOD 26-04のパッチ適用ガイドラインを確実に遵守することは、関係者の責任です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -178,11 +165,9 @@ Plex Media Server contains a server-side request forgery (SSRF) vulnerability th
 
 **緊急（悪用確認）** · CISA KEV · 2026-10-20
 
-Plex Media Server contains an improper neutralization of encoded URI schemes in a web page vulnerability that could allow an attacker to call other plugins' functions and supply their own parameters. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96655, and CVE-2026-96656.
+Plex Media Server には、Web ページ内のエンコードされた URI スキームの不適切な無効化に関する脆弱性が存在し、これにより攻撃者が他のプラグインの関数を呼び出し、独自のパラメータを指定できる可能性があります。 この脆弱性は、CVE-2026-96652、CVE-2026-96655、およびCVE-2026-96656と連鎖して悪用される可能性があります。
 
-**対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-
-> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
+**対策：** ベンダーの指示に従って緩和措置を適用し、CISAのBOD 26-04「リスクに基づくセキュリティ更新プログラムの優先順位付け」（注記のURLを参照）およびCISAの「フォレンジック・トリアージ要件」（注記のURLを参照）への準拠を確保してください。 クラウドサービスについては、該当するBOD 26-04のガイダンスに従うか、緩和策が利用できない場合は当該製品の使用を中止してください。各資産のインターネットへの露出状況を評価し、BOD 26-04のパッチ適用ガイドラインを確実に遵守することは、関係者の責任です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -192,11 +177,9 @@ Plex Media Server contains an improper neutralization of encoded URI schemes in 
 
 **緊急（悪用確認）** · CISA KEV · 2026-10-20
 
-Plex Media Server contains a server-side request forgery (SSRF) vulnerability which could allow an attacker using any X-Plex-Token value to include a full URL in the 'protocol' parameter and force the Plex server to POST to the attacker's chosen destination. This vulnerability can be chained with CVE-2026-96654, CVE-2026-96655, and CVE-2026-96656.
+Plex Media Server には、サーバーサイドリクエストフォージェリ（SSRF）の脆弱性が存在します。この脆弱性を悪用すると、攻撃者は任意の X-Plex-Token 値を使用し、「protocol」パラメータに完全な URL を指定することで、Plex サーバーに攻撃者が指定した宛先への POST リクエストを強制させることが可能です。 この脆弱性は、CVE-2026-96654、CVE-2026-96655、およびCVE-2026-96656と連鎖して悪用される可能性があります。
 
-**対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-
-> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
+**対策：** ベンダーの指示に従って緩和措置を適用し、CISAのBOD 26-04「リスクに基づくセキュリティ更新プログラムの優先順位付け」（注記のURLを参照）およびCISAの「フォレンジック・トリアージ要件」（注記のURLを参照）への準拠を確保してください。 クラウドサービスについては、該当するBOD 26-04のガイダンスに従うか、緩和策が利用できない場合は当該製品の使用を中止してください。各資産のインターネットへの露出状況を評価し、BOD 26-04のパッチ適用ガイドラインを確実に遵守することは、関係者の責任です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -206,11 +189,9 @@ Plex Media Server contains a server-side request forgery (SSRF) vulnerability wh
 
 **緊急（悪用確認）** · CISA KEV · 2026-10-20
 
-Siemens Software Center contains an uncontrolled search path element vulnerability that could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to arbitrary code execution with the privileges of the affected application.
+Siemens Software Center には、検索パスの要素が適切に制御されていないという脆弱性が存在します。この脆弱性を悪用すると、認証済みのローカル攻撃者が、アプリケーションが検索対象とするディレクトリに細工された DLL を配置し、影響を受けるアプリケーションの権限で任意のコードを実行することが可能になります。
 
-**対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-
-> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
+**対策：** ベンダーの指示に従って緩和措置を適用し、CISAのBOD 26-04「リスクに基づくセキュリティ更新プログラムの優先順位付け」（注記のURLを参照）およびCISAの「フォレンジック・トリアージ要件」（注記のURLを参照）への準拠を確保してください。 クラウドサービスについては、該当するBOD 26-04のガイダンスに従うか、緩和策が利用できない場合は当該製品の使用を中止してください。各資産のインターネットへの露出状況を評価し、BOD 26-04のパッチ適用ガイドラインを確実に遵守することは、関係者の責任です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -268,11 +249,9 @@ GNU Projectが提供するUnRTFには境界外書き込みの脆弱性が存在�
 
 **緊急（悪用確認）** · CISA KEV · 2026-10-16
 
-BeyondTrust Remote Support contains an authentication bypass by spoofing vulnerability that could allow a remote attacker to perform file operations on the appliance.
+BeyondTrust Remote Support には、スプーフィングによる認証バイパス脆弱性が存在し、これによりリモートの攻撃者がアプライアンス上でファイル操作を実行できる可能性があります。
 
-**対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-
-> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
+**対策：** ベンダーの指示に従って緩和措置を適用し、CISAのBOD 26-04「リスクに基づくセキュリティ更新プログラムの優先順位付け」（注記のURLを参照）およびCISAの「フォレンジック・トリアージ要件」（注記のURLを参照）への準拠を確保してください。 クラウドサービスについては、該当するBOD 26-04のガイダンスに従うか、緩和策が利用できない場合は当該製品の使用を中止してください。各資産のインターネットへの露出状況を評価し、BOD 26-04のパッチ適用ガイドラインを確実に遵守することは、関係者の責任です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -282,11 +261,9 @@ BeyondTrust Remote Support contains an authentication bypass by spoofing vulnera
 
 **緊急（悪用確認）** · CISA KEV · 2026-10-16
 
-FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager contain a path traversal vulnerability that may allow an authenticated attacker with admin profile and at least read-write permissions to write or delete arbitrary files via specific CLI commands.
+FortiOS、FortiPAM、FortiProxy、およびFortiSwitchManagerには、パストラバーサル脆弱性が存在します。この脆弱性を悪用すると、管理者プロファイルを持ち、少なくとも読み書き権限を持つ認証済みの攻撃者が、特定のCLIコマンドを使用して任意のファイルを書き込んだり削除したりできる可能性があります。
 
-**対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-
-> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
+**対策：** ベンダーの指示に従って緩和措置を適用し、CISAのBOD 26-04「リスクに基づくセキュリティ更新プログラムの優先順位付け」（注記のURLを参照）およびCISAの「フォレンジック・トリアージ要件」（注記のURLを参照）への準拠を確保してください。 クラウドサービスについては、該当するBOD 26-04のガイダンスに従うか、緩和策が利用できない場合は当該製品の使用を中止してください。各資産のインターネットへの露出状況を評価し、BOD 26-04のパッチ適用ガイドラインを確実に遵守することは、関係者の責任です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -320,11 +297,9 @@ Siemensから各製品向けのアドバイザリが公表されました。
 
 **緊急（悪用確認）** · CISA KEV · 2026-10-15
 
-Multiple Atlassian products (Bitbucket Data Center ,Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center, Crowd Data Center, Crucible and Fisheye) contain a files or directories accessible to external parties vulnerability which could allow an unauthenticated attacker to access specific files within the web application root directory in affected versions.
+複数のAtlassian製品（Bitbucket Data Center、Confluence Data Center、Jira Service Management Data Center、Jira Software Data Center、Bamboo Data Center、 Crowd Data Center、Crucible、Fisheye）には、外部からアクセス可能なファイルやディレクトリが存在するという脆弱性が含まれており、影響を受けるバージョンにおいて、認証されていない攻撃者がWebアプリケーションのルートディレクトリ内の特定のファイルにアクセスできる可能性があります。
 
-**対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-
-> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
+**対策：** ベンダーの指示に従って緩和措置を適用し、CISAのBOD 26-04「リスクに基づくセキュリティ更新プログラムの優先順位付け」（注記のURLを参照）およびCISAの「フォレンジック・トリアージ要件」（注記のURLを参照）への準拠を確保してください。 クラウドサービスについては、該当するBOD 26-04のガイダンスに従うか、緩和策が利用できない場合は当該製品の使用を中止してください。各資産のインターネットへの露出状況を評価し、BOD 26-04のパッチ適用ガイドラインを確実に遵守することは、関係者の責任です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -406,11 +381,9 @@ CERT/CCから本件に関するアドバイザリが公表されました。
 
 **緊急（悪用確認）** · CISA KEV · 2026-10-14
 
-Ahsay AhsayCBS contains a command injection vulnerability that could allow a remote attacker to execute operating system commands via manipulation of the random parameter in the Replication Receiver component’s /rps/api/json/UpdateReceivers.do endpoint. This vulnerability can be chained with CVE-2026-105133.
+Ahsay AhsayCBS には、Replication Receiver コンポーネントの /rps/api/json/UpdateReceivers.do エンドポイントにおけるランダムなパラメータを悪用することで、リモートの攻撃者がオペレーティングシステムのコマンドを実行できてしまう可能性のあるコマンドインジェクションの脆弱性が存在します。 この脆弱性は、CVE-2026-105133 と連鎖して悪用される可能性があります。
 
-**対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-
-> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
+**対策：** ベンダーの指示に従って緩和措置を適用し、CISAのBOD 26-04「リスクに基づくセキュリティ更新プログラムの優先順位付け」（注記のURLを参照）およびCISAの「フォレンジック・トリアージ要件」（注記のURLを参照）への準拠を確保してください。 クラウドサービスについては、該当するBOD 26-04のガイダンスに従うか、緩和策が利用できない場合は当該製品の使用を中止してください。各資産のインターネットへの露出状況を評価し、BOD 26-04のパッチ適用ガイドラインを確実に遵守することは、関係者の責任です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -420,11 +393,9 @@ Ahsay AhsayCBS contains a command injection vulnerability that could allow a rem
 
 **緊急（悪用確認）** · CISA KEV · 2026-10-14
 
-Cisco Secure Email Gateway contains a relative path traversal vulnerability that could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system.
+Cisco Secure Email Gateway には、相対パストラバーサル脆弱性が存在し、これにより、認証されていないリモートの攻撃者が、基盤となるオペレーティングシステム上に任意のファイルを書き込むことが可能になる恐れがあります。
 
-**対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-
-> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
+**対策：** ベンダーの指示に従って緩和措置を適用し、CISAのBOD 26-04「リスクに基づくセキュリティ更新プログラムの優先順位付け」（注記のURLを参照）およびCISAの「フォレンジック・トリアージ要件」（注記のURLを参照）への準拠を確保してください。 クラウドサービスについては、該当するBOD 26-04のガイダンスに従うか、緩和策が利用できない場合は当該製品の使用を中止してください。各資産のインターネットへの露出状況を評価し、BOD 26-04のパッチ適用ガイドラインを確実に遵守することは、関係者の責任です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -434,11 +405,9 @@ Cisco Secure Email Gateway contains a relative path traversal vulnerability that
 
 **緊急（悪用確認）** · CISA KEV · 2026-10-14
 
-Ahsay AhsayCBS contains an improper authentication vulnerability that could allow a remote attacker to bypass authentication via manipulation of the random parameter in the API component’s checkSysPwd function. This vulnerability can be chained with CVE-2026-105134.
+Ahsay AhsayCBS には、API コンポーネントの checkSysPwd 関数におけるランダムなパラメータを操作することで、リモートの攻撃者が認証をバイパスできてしまう可能性のある、不適切な認証の脆弱性が存在します。この脆弱性は、CVE-2026-105134 と連鎖して悪用される可能性があります。
 
-**対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-
-> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
+**対策：** ベンダーの指示に従って緩和措置を適用し、CISAのBOD 26-04「リスクに基づくセキュリティ更新プログラムの優先順位付け」（注記のURLを参照）およびCISAの「フォレンジック・トリアージ要件」（注記のURLを参照）への準拠を確保してください。 クラウドサービスについては、該当するBOD 26-04のガイダンスに従うか、緩和策が利用できない場合は当該製品の使用を中止してください。各資産のインターネットへの露出状況を評価し、BOD 26-04のパッチ適用ガイドラインを確実に遵守することは、関係者の責任です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -448,11 +417,9 @@ Ahsay AhsayCBS contains an improper authentication vulnerability that could allo
 
 **緊急（悪用確認）** · CISA KEV · 2026-10-14
 
-Palo Alto Networks PAN-OS contains a code injection vulnerability that could allow an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall.
+Palo Alto Networks PAN-OS には、ネットワークアクセス権を持つ認証済みの攻撃者が、ファイアウォール上でルート権限を用いて任意のコードを実行できる可能性のあるコードインジェクションの脆弱性が存在します。
 
-**対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-
-> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
+**対策：** ベンダーの指示に従って緩和措置を適用し、CISAのBOD 26-04「リスクに基づくセキュリティ更新プログラムの優先順位付け」（注記のURLを参照）およびCISAの「フォレンジック・トリアージ要件」（注記のURLを参照）への準拠を確保してください。 クラウドサービスについては、該当するBOD 26-04のガイダンスに従うか、緩和策が利用できない場合は当該製品の使用を中止してください。各資産のインターネットへの露出状況を評価し、BOD 26-04のパッチ適用ガイドラインを確実に遵守することは、関係者の責任です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -486,11 +453,9 @@ EGセキュアソリューションズ株式会社が提供するSiteGuard Serve
 
 **緊急（悪用確認）** · CISA KEV · 2026-10-13
 
-Ivanti Connect Secure contains an authentication bypass by spoofing vulnerability that allows a remote unauthenticated attacker to execute arbitrary commands.
+Ivanti Connect Secure には、スプーフィングによる認証バイパス脆弱性が存在し、これにより、認証されていないリモートの攻撃者が任意のコマンドを実行できてしまいます。
 
-**対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-
-> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
+**対策：** ベンダーの指示に従って緩和措置を適用し、CISAのBOD 26-04「リスクに基づくセキュリティ更新プログラムの優先順位付け」（注記のURLを参照）およびCISAの「フォレンジック・トリアージ要件」（注記のURLを参照）への準拠を確保してください。 クラウドサービスについては、該当するBOD 26-04のガイダンスに従うか、緩和策が利用できない場合は当該製品の使用を中止してください。各資産のインターネットへの露出状況を評価し、BOD 26-04のパッチ適用ガイドラインを確実に遵守することは、関係者の責任です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -500,11 +465,9 @@ Ivanti Connect Secure contains an authentication bypass by spoofing vulnerabilit
 
 **緊急（悪用確認）** · CISA KEV · 2026-10-08
 
-ISC BIND contains a data processing errors vulnerability that could allow remote attackers to cause a denial of service via TKEY queries.
+ISC BIND には、データ処理上の脆弱性が存在し、これにより、リモートの攻撃者が TKEY クエリを介してサービス拒否を引き起こす可能性がある。
 
-**対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-
-> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
+**対策：** ベンダーの指示に従って緩和措置を適用し、CISAのBOD 26-04「リスクに基づくセキュリティ更新プログラムの優先順位付け」（注記のURLを参照）およびCISAの「フォレンジック・トリアージ要件」（注記のURLを参照）への準拠を確保してください。 クラウドサービスについては、該当するBOD 26-04のガイダンスに従うか、緩和策が利用できない場合は当該製品の使用を中止してください。各資産のインターネットへの露出状況を評価し、BOD 26-04のパッチ適用ガイドラインを確実に遵守することは、関係者の責任です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -514,11 +477,9 @@ ISC BIND contains a data processing errors vulnerability that could allow remote
 
 **緊急（悪用確認）** · CISA KEV · 2026-10-08
 
-Apache Struts contains a command injection vulnerability that could allow remote attackers to execute arbitrary code via method:prefix when Dynamic Method Invocation is enabled.
+Apache Struts には、動的メソッド呼び出しが有効になっている場合、リモートの攻撃者が `method:prefix` を通じて任意のコードを実行できる可能性のあるコマンドインジェクションの脆弱性が存在します。
 
-**対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-
-> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
+**対策：** ベンダーの指示に従って緩和措置を適用し、CISAのBOD 26-04「リスクに基づくセキュリティ更新プログラムの優先順位付け」（注記のURLを参照）およびCISAの「フォレンジック・トリアージ要件」（注記のURLを参照）への準拠を確保してください。 クラウドサービスについては、該当するBOD 26-04のガイダンスに従うか、緩和策が利用できない場合は当該製品の使用を中止してください。各資産のインターネットへの露出状況を評価し、BOD 26-04のパッチ適用ガイドラインを確実に遵守することは、関係者の責任です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -528,11 +489,9 @@ Apache Struts contains a command injection vulnerability that could allow remote
 
 **緊急（悪用確認）** · CISA KEV · 2026-10-08
 
-Strapi contains a cleartext storage of sensitive information vulnerability that could allow attackers with access to the admin panel to discover sensitive user details via the query filter. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version. This vulnerability can be chained with CVE-2023-22621 to achieve remote code execution.
+Strapiには、機密情報が平文で保存されているという脆弱性が存在し、これにより、管理パネルへのアクセス権を持つ攻撃者がクエリフィルターを介してユーザーの機密情報を特定できる可能性があります。影響を受ける製品は、サポート終了（EoL）および／またはサービス終了（EoS）となっている可能性があります。 ユーザーは、当該製品の使用を中止するか、サポート対象のバージョンへ移行することを推奨します。この脆弱性は、CVE-2023-22621と組み合わせて利用されることで、リモートコード実行が可能となる可能性があります。
 
-**対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-
-> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
+**対策：** ベンダーの指示に従って緩和措置を適用し、CISAのBOD 26-04「リスクに基づくセキュリティ更新プログラムの優先順位付け」（注記のURLを参照）およびCISAの「フォレンジック・トリアージ要件」（注記のURLを参照）への準拠を確保してください。 クラウドサービスについては、該当するBOD 26-04のガイダンスに従うか、緩和策が利用できない場合は当該製品の使用を中止してください。各資産のインターネットへの露出状況を評価し、BOD 26-04のパッチ適用ガイドラインを確実に遵守することは、関係者の責任です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -542,11 +501,9 @@ Strapi contains a cleartext storage of sensitive information vulnerability that 
 
 **緊急（悪用確認）** · CISA KEV · 2026-10-08
 
-ProFTPD contains an improper access control vulnerability that could allow remote attackers to read and write to arbitrary files via the site cpfr and site cpto commands.
+ProFTPD には、不正なアクセス制御の脆弱性が存在し、これにより、リモートの攻撃者が「site cpfr」および「site cpto」コマンドを介して、任意のファイルを読み書きできる可能性があります。
 
-**対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-
-> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
+**対策：** ベンダーの指示に従って緩和措置を適用し、CISAのBOD 26-04「リスクに基づくセキュリティ更新プログラムの優先順位付け」（注記のURLを参照）およびCISAの「フォレンジック・トリアージ要件」（注記のURLを参照）への準拠を確保してください。 クラウドサービスについては、該当するBOD 26-04のガイダンスに従うか、緩和策が利用できない場合は当該製品の使用を中止してください。各資産のインターネットへの露出状況を評価し、BOD 26-04のパッチ適用ガイドラインを確実に遵守することは、関係者の責任です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -556,11 +513,9 @@ ProFTPD contains an improper access control vulnerability that could allow remot
 
 **緊急（悪用確認）** · CISA KEV · 2026-10-04
 
-Citrix NetScaler ADC (formerly Citrix ADC) and Citrix NetScaler Gateway (formerly Citrix Gateway) contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow for a denial of service.
+Citrix NetScaler ADC（旧称：Citrix ADC）およびCitrix NetScaler Gateway（旧称：Citrix Gateway）には、メモリバッファの境界内での操作に対する不適切な制限が存在し、この脆弱性を悪用されるとサービス拒否（DoS）攻撃が発生する可能性があります。
 
-**対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-
-> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
+**対策：** ベンダーの指示に従って緩和措置を適用し、CISAのBOD 26-04「リスクに基づくセキュリティ更新プログラムの優先順位付け」（注記のURLを参照）およびCISAの「フォレンジック・トリアージ要件」（注記のURLを参照）への準拠を確保してください。 クラウドサービスについては、該当するBOD 26-04のガイダンスに従うか、緩和策が利用できない場合は当該製品の使用を中止してください。各資産のインターネットへの露出状況を評価し、BOD 26-04のパッチ適用ガイドラインを確実に遵守することは、関係者の責任です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
@@ -570,11 +525,9 @@ Citrix NetScaler ADC (formerly Citrix ADC) and Citrix NetScaler Gateway (formerl
 
 **緊急（悪用確認）** · CISA KEV · 2026-10-02
 
-Zammad GmbH Zammad contains an improper privilege management vulnerability that can allow the local zammad user to escalate privileges to root. This vulnerability can be chained with CVE-2026-102489.
+Zammad GmbH Zammad には、ローカルの zammad ユーザーが root 権限へ昇格できる可能性のある、不適切な権限管理の脆弱性が存在します。この脆弱性は、CVE-2026-102489 と組み合わせて悪用される可能性があります。
 
-**対策：** Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
-
-> ⚠️ 自動翻訳できなかったため、一部または全部が英語原文です。
+**対策：** ベンダーの指示に従って緩和措置を適用し、CISAのBOD 26-04「リスクに基づくセキュリティ更新プログラムの優先順位付け」（注記のURLを参照）およびCISAの「フォレンジック・トリアージ要件」（注記のURLを参照）への準拠を確保してください。 クラウドサービスについては、該当するBOD 26-04のガイダンスに従うか、緩和策が利用できない場合は当該製品の使用を中止してください。各資産のインターネットへの露出状況を評価し、BOD 26-04のパッチ適用ガイドラインを確実に遵守することは、関係者の責任です。
 
 [公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
