@@ -1,6 +1,72 @@
 {
-  "updated": "2026-10-26 08:46 JST",
+  "updated": "2026-10-27 08:53 JST",
   "items": [
+    {
+      "source": "CISA KEV",
+      "date": "2026-10-26",
+      "title": "PHP Group PHP — CVE-2026-109618",
+      "description": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-109618",
+      "priority": "緊急（悪用確認）",
+      "search": "php group php cve-2026-109618"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-10-26",
+      "title": "PHP Group PHP — CVE-2026-109619",
+      "description": "PHP contains a stale internal request-state vulnerability that allows for unauthenticated remote code execution.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-109619",
+      "priority": "緊急（悪用確認）",
+      "search": "php group php cve-2026-109619"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-10-26",
+      "title": "BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）",
+      "description": "Googleのデータ圧縮アルゴリズムBrotliのC言語実装における脆弱性（ CVE-2026-111497 ）に対するアドバイザリが公開されました。 本脆弱性は「HTTP2Shell」や「Node2Shell」とも呼ばれています。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU97400824/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "brotliのc言語実装における境界外書き込みの脆弱性（cve-2026-111497） googleのデータ圧縮アルゴリズムbrotliのc言語実装における脆弱性（ cve-2026-111497 ）に対するアドバイザリが公開されました。 本脆弱性は「http2shell」や「node2shell」とも呼ばれています。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-10-26",
+      "title": "富士電機製V-SFTにおける複数の脆弱性（2026年10月）",
+      "description": "富士電機株式会社が提供するV-SFTには、複数の脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU96549652/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "富士電機製v-sftにおける複数の脆弱性（2026年10月） 富士電機株式会社が提供するv-sftには、複数の脆弱性が存在します。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-10-26",
+      "title": "電子納品物検査支援システムにおけるインストール時の不適切なファイルアクセス権設定の脆弱性",
+      "description": "国土交通省が提供する電子納品物検査支援システムには、インストール時に不適切なファイルアクセス権設定が行われる脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/jp/JVN75668103/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "電子納品物検査支援システムにおけるインストール時の不適切なファイルアクセス権設定の脆弱性 国土交通省が提供する電子納品物検査支援システムには、インストール時に不適切なファイルアクセス権設定が行われる脆弱性が存在します。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-10-26",
+      "title": "Siemens製品に対するアップデート（2026年10月）",
+      "description": "Siemensから各製品向けのアドバイザリが公表されました。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU90141693/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "siemens製品に対するアップデート（2026年10月） siemensから各製品向けのアドバイザリが公表されました。"
+    },
     {
       "source": "CISA KEV",
       "date": "2026-10-23",
@@ -266,17 +332,6 @@
       "search": "cisa ics advisory / ics medical advisory（2026年10月15日） 米国cisaがcisa ics advisory / ics medical advisoryを公表しました。"
     },
     {
-      "source": "JVN",
-      "date": "2026-10-16",
-      "title": "Siemens製品に対するアップデート（2026年10月）",
-      "description": "Siemensから各製品向けのアドバイザリが公表されました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU90141693/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "siemens製品に対するアップデート（2026年10月） siemensから各製品向けのアドバイザリが公表されました。"
-    },
-    {
       "source": "CISA KEV",
       "date": "2026-10-15",
       "title": "Atlassian Multiple Products — CVE-2026-21589",
@@ -308,39 +363,6 @@
       "cve": "",
       "priority": "要確認",
       "search": "スマートフォンアプリ「ハンドメイドマーケットアプリ - creema（クリーマ）」におけるオープンリダイレクトの脆弱性 株式会社クリーマが提供するスマートフォンアプリ「ハンドメイドマーケットアプリ - creema（クリーマ）」には、オープンリダイレクトの脆弱性が存在します。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-10-15",
-      "title": "スマートフォンアプリ「ゲオアプリ」における複数の脆弱性",
-      "description": "株式会社ゲオが提供するスマートフォンアプリ「ゲオアプリ」には、複数の脆弱性が存在します。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/jp/JVN40460777/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "スマートフォンアプリ「ゲオアプリ」における複数の脆弱性 株式会社ゲオが提供するスマートフォンアプリ「ゲオアプリ」には、複数の脆弱性が存在します。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-10-15",
-      "title": "Google BoringSSL証明書検証における複数の名前制約回避の脆弱性",
-      "description": "CERT/CCから本件に関するアドバイザリが公表されました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU95613365/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "google boringssl証明書検証における複数の名前制約回避の脆弱性 cert/ccから本件に関するアドバイザリが公表されました。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-10-15",
-      "title": "複数のTLSライブラリにおける名前制約回避の問題",
-      "description": "CERT/CCから本件に関するアドバイザリが公表されました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU95474776/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "複数のtlsライブラリにおける名前制約回避の問題 cert/ccから本件に関するアドバイザリが公表されました。"
     },
     {
       "source": "CISA KEV",
@@ -583,28 +605,6 @@
       "cve": "CVE-2026-87902",
       "priority": "緊急（悪用確認）",
       "search": "wordpress core cve-2026-87902"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-09-24",
-      "title": "WSO2 Multiple Products — CVE-2026-5430",
-      "description": "WSO2 API Control Plane, API Manager, Traffic Manager & Universal Gateway contain a path traversal vulnerability that could allow for unrestricted file upload and lead to remote code execution.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-5430",
-      "priority": "緊急（悪用確認）",
-      "search": "wso2 multiple products cve-2026-5430"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-09-24",
-      "title": "Adobe Commerce and Magento — CVE-2026-71362",
-      "description": "Adobe Commerce and Magento contains an incorrect authorization vulnerability that could allow an attacker to leverage this vulnerability to gain elevated access to sensitive resources without any user interaction.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-71362",
-      "priority": "緊急（悪用確認）",
-      "search": "adobe commerce and magento cve-2026-71362"
     }
   ],
   "warnings": [],
