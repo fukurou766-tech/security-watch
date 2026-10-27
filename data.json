@@ -1,6 +1,83 @@
 {
-  "updated": "2026-10-27 08:53 JST",
+  "updated": "2026-10-28 08:54 JST",
   "items": [
+    {
+      "source": "CISA KEV",
+      "date": "2026-10-27",
+      "title": "Adobe Commerce and Magento — CVE-2026-48356",
+      "description": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-48356",
+      "priority": "緊急（悪用確認）",
+      "search": "adobe commerce and magento cve-2026-48356"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-10-27",
+      "title": "Google Brotli — CVE-2026-111497",
+      "description": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-111497",
+      "priority": "緊急（悪用確認）",
+      "search": "google brotli cve-2026-111497"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-10-27",
+      "title": "GROWIにおける複数の脆弱性",
+      "description": "株式会社GROWIが提供するGROWIには、複数の脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/jp/JVN51223238/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "growiにおける複数の脆弱性 株式会社growiが提供するgrowiには、複数の脆弱性が存在します。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-10-27",
+      "title": "Sleipnir Mobile for Androidのユーザーインターフェースにおいて偽のアドレスバーなどを表示される脆弱性",
+      "description": "フェンリル株式会社が提供するSleipnir Mobile for Androidには、ユーザーインターフェースにおいて偽のアドレスバーなどを表示される脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/jp/JVN90463048/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "sleipnir mobile for androidのユーザーインターフェースにおいて偽のアドレスバーなどを表示される脆弱性 フェンリル株式会社が提供するsleipnir mobile for androidには、ユーザーインターフェースにおいて偽のアドレスバーなどを表示される脆弱性が存在します。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-10-27",
+      "title": "Fireblocks製mpc-libの強化導出（Hardened Derivation）処理における脆弱性",
+      "description": "CERT/CCから本件に関するアドバイザリが公表されました。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU90547696/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "fireblocks製mpc-libの強化導出（hardened derivation）処理における脆弱性 cert/ccから本件に関するアドバイザリが公表されました。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-10-27",
+      "title": "COVESA vsomeipにおける過剰なメモリ割り当ての脆弱性",
+      "description": "CERT/CCから本件に関するアドバイザリが公表されました。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU90363302/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "covesa vsomeipにおける過剰なメモリ割り当ての脆弱性 cert/ccから本件に関するアドバイザリが公表されました。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-10-27",
+      "title": "Siemens製品に対するアップデート（2026年10月）",
+      "description": "Siemensから各製品向けのアドバイザリが公表されました。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU90141693/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "siemens製品に対するアップデート（2026年10月） siemensから各製品向けのアドバイザリが公表されました。"
+    },
     {
       "source": "CISA KEV",
       "date": "2026-10-26",
@@ -55,17 +132,6 @@
       "cve": "",
       "priority": "要確認",
       "search": "電子納品物検査支援システムにおけるインストール時の不適切なファイルアクセス権設定の脆弱性 国土交通省が提供する電子納品物検査支援システムには、インストール時に不適切なファイルアクセス権設定が行われる脆弱性が存在します。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-10-26",
-      "title": "Siemens製品に対するアップデート（2026年10月）",
-      "description": "Siemensから各製品向けのアドバイザリが公表されました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU90141693/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "siemens製品に対するアップデート（2026年10月） siemensから各製品向けのアドバイザリが公表されました。"
     },
     {
       "source": "CISA KEV",
@@ -288,17 +354,6 @@
       "search": "unrtfにおける境界外書き込みの脆弱性 gnu projectが提供するunrtfには境界外書き込みの脆弱性が存在します。"
     },
     {
-      "source": "JVN",
-      "date": "2026-10-19",
-      "title": "ヤマハ製VOCALOID6 Editorにおける外部エンティティ参照の不適切な制限の脆弱性",
-      "description": "ヤマハ株式会社が提供するVOCALOID6 Editorには、外部エンティティ参照の不適切な制限の脆弱性が存在します。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU93520490/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "ヤマハ製vocaloid6 editorにおける外部エンティティ参照の不適切な制限の脆弱性 ヤマハ株式会社が提供するvocaloid6 editorには、外部エンティティ参照の不適切な制限の脆弱性が存在します。"
-    },
-    {
       "source": "CISA KEV",
       "date": "2026-10-16",
       "title": "BeyondTrust Remote Support — CVE-2026-102764",
@@ -321,17 +376,6 @@
       "search": "fortinet multiple products cve-2025-61624"
     },
     {
-      "source": "JVN",
-      "date": "2026-10-16",
-      "title": "CISA ICS Advisory / ICS Medical Advisory（2026年10月15日）",
-      "description": "米国CISAがCISA ICS Advisory / ICS Medical Advisoryを公表しました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU96928590/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "cisa ics advisory / ics medical advisory（2026年10月15日） 米国cisaがcisa ics advisory / ics medical advisoryを公表しました。"
-    },
-    {
       "source": "CISA KEV",
       "date": "2026-10-15",
       "title": "Atlassian Multiple Products — CVE-2026-21589",
@@ -341,28 +385,6 @@
       "cve": "CVE-2026-21589",
       "priority": "緊急（悪用確認）",
       "search": "atlassian multiple products cve-2026-21589"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-10-15",
-      "title": "「車検証閲覧アプリ」における送信データへの機微な情報の挿入の脆弱性",
-      "description": "国土交通省が提供する「車検証閲覧アプリ」には、送信データへの機微な情報の挿入の脆弱性が存在します。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/jp/JVN94004488/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "「車検証閲覧アプリ」における送信データへの機微な情報の挿入の脆弱性 国土交通省が提供する「車検証閲覧アプリ」には、送信データへの機微な情報の挿入の脆弱性が存在します。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-10-15",
-      "title": "スマートフォンアプリ「ハンドメイドマーケットアプリ - Creema（クリーマ）」におけるオープンリダイレクトの脆弱性",
-      "description": "株式会社クリーマが提供するスマートフォンアプリ「ハンドメイドマーケットアプリ - Creema（クリーマ）」には、オープンリダイレクトの脆弱性が存在します。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/jp/JVN48627289/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "スマートフォンアプリ「ハンドメイドマーケットアプリ - creema（クリーマ）」におけるオープンリダイレクトの脆弱性 株式会社クリーマが提供するスマートフォンアプリ「ハンドメイドマーケットアプリ - creema（クリーマ）」には、オープンリダイレクトの脆弱性が存在します。"
     },
     {
       "source": "CISA KEV",
@@ -583,28 +605,6 @@
       "cve": "CVE-2026-67279",
       "priority": "緊急（悪用確認）",
       "search": "mikrotik routeros cve-2026-67279"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-09-25",
-      "title": "Microsoft SharePoint — CVE-2026-65660",
-      "description": "Microsoft SharePoint contains a code injection vulnerability which could allow an authorized attacker to execute code over a network.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-65660",
-      "priority": "緊急（悪用確認）",
-      "search": "microsoft sharepoint cve-2026-65660"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-09-25",
-      "title": "WordPress Core — CVE-2026-87902",
-      "description": "WordPress Core contains a remote file inclusion vulnerability which could allow an unauthenticated attacker to make page-template resolution include a chosen readable local `.php` file outside the active theme directories, leading to remote code execution.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-87902",
-      "priority": "緊急（悪用確認）",
-      "search": "wordpress core cve-2026-87902"
     }
   ],
   "warnings": [],
