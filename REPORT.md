@@ -1,6 +1,6 @@
 # 🛡️ 脆弱性情報ダッシュボード
 
-**最終取得：2026-10-29 08:58 JST**
+**最終取得：2026-10-30 08:57 JST**
 
 **取得件数：55件**（CISA直近35件・JVN最大40件）
 
@@ -14,6 +14,18 @@
 - **JVN：** 取得成功（20件）
 
 ## 🎯 業務に関係しそうな情報
+
+### GitLab Community Edition and Enterprise Edition — CVE-2026-97229
+
+**緊急（悪用確認）** · CISA KEV · 2026-10-29
+
+GitLab Community Edition および Enterprise Edition には、正規表現の検証が不十分であるため、認証されていないユーザーが CI/CD 設定内で特別に細工された正規表現を介して、GitLab サーバー上で任意のコードを実行できてしまう可能性のある、整数オーバーフローまたはラップアラウンドの脆弱性が存在します。
+
+**対策：** ベンダーの指示に従って緩和措置を適用し、CISAのBOD 26-04「リスクに基づくセキュリティ更新プログラムの優先順位付け」（注記のURLを参照）およびCISAの「フォレンジック・トリアージ要件」（注記のURLを参照）への準拠を確保してください。 クラウドサービスについては、該当するBOD 26-04のガイダンスに従うか、緩和策が利用できない場合は当該製品の使用を中止してください。各資産のインターネットへの露出状況を評価し、BOD 26-04のパッチ適用ガイドラインを確実に遵守することは、関係者の責任です。
+
+[公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
+
+---
 
 ### Yamaha LAN Monitor for WindowsのインストーラにおけるDLL読み込みに関する脆弱性
 
@@ -64,6 +76,30 @@ ONLYOFFICE Docsには、JWTが使用されている場合に、画像アップ�
 ---
 
 ## 🆕 その他の情報
+
+### Cisco Secure Firewall ASA Software and Cisco Secure FTD Software — CVE-2026-76418
+
+**緊急（悪用確認）** · CISA KEV · 2026-10-29
+
+Cisco Secure Firewall ASA ソフトウェアおよび Cisco Secure FTD ソフトウェアには、NULL ポインタ参照のチェックが行われていないという脆弱性が存在します。この脆弱性を悪用すると、認証されていないリモートの攻撃者がデバイスを予期せず再起動させ、サービス拒否（DoS）状態を引き起こす可能性があります。
+
+**対策：** ベンダーの指示に従って緩和措置を適用し、CISAのBOD 26-04「リスクに基づくセキュリティ更新プログラムの優先順位付け」（注記のURLを参照）およびCISAの「フォレンジック・トリアージ要件」（注記のURLを参照）への準拠を確保してください。 クラウドサービスについては、該当するBOD 26-04のガイダンスに従うか、緩和策が利用できない場合は当該製品の使用を中止してください。各資産のインターネットへの露出状況を評価し、BOD 26-04のパッチ適用ガイドラインを確実に遵守することは、関係者の責任です。
+
+[公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
+
+---
+
+### Apache Struts 2 RESTプラグインにおける、@StrutsParameterの制限が@JsonAnySetterに適用されない問題
+
+**要確認** · JVN · 2026-10-29
+
+The Apache Software Foundationが提供するApache Struts 2のRESTプラグインには、Jacksonの @JsonAnySetter が指定されたフィールドやメソッドに対して @StrutsParameter の制限が行われない問題が存在します。
+
+**対策：** 公式の対策情報を確認してください。
+
+[公式情報を見る](https://jvn.jp/jp/JVN82782759/)
+
+---
 
 ### Broadcom VMware ESX — CVE-2026-41709
 
@@ -365,18 +401,6 @@ The Apache Software Foundationから、Apache Tomcatの8件の脆弱性に対し
 
 ---
 
-### CISA ICS Advisory / ICS Medical Advisory（2026年10月20日）
-
-**要確認** · JVN · 2026-10-21
-
-米国CISAがCISA ICS Advisory / ICS Medical Advisoryを公表しました。
-
-**対策：** 公式の対策情報を確認してください。
-
-[公式情報を見る](https://jvn.jp/vu/JVNVU90998702/)
-
----
-
 ### EG Secure Solutions SiteGuard Server Edition — CVE-2026-106931
 
 **緊急（悪用確認）** · CISA KEV · 2026-10-20
@@ -526,18 +550,6 @@ Ahsay AhsayCBS には、API コンポーネントの checkSysPwd 関数におけ
 **緊急（悪用確認）** · CISA KEV · 2026-10-14
 
 Palo Alto Networks PAN-OS には、ネットワークアクセス権を持つ認証済みの攻撃者が、ファイアウォール上でルート権限を用いて任意のコードを実行できる可能性のあるコードインジェクションの脆弱性が存在します。
-
-**対策：** ベンダーの指示に従って緩和措置を適用し、CISAのBOD 26-04「リスクに基づくセキュリティ更新プログラムの優先順位付け」（注記のURLを参照）およびCISAの「フォレンジック・トリアージ要件」（注記のURLを参照）への準拠を確保してください。 クラウドサービスについては、該当するBOD 26-04のガイダンスに従うか、緩和策が利用できない場合は当該製品の使用を中止してください。各資産のインターネットへの露出状況を評価し、BOD 26-04のパッチ適用ガイドラインを確実に遵守することは、関係者の責任です。
-
-[公式情報を見る](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
-
----
-
-### Ivanti Connect Secure — CVE-2026-104935
-
-**緊急（悪用確認）** · CISA KEV · 2026-10-13
-
-Ivanti Connect Secure には、スプーフィングによる認証バイパス脆弱性が存在し、これにより、認証されていないリモートの攻撃者が任意のコマンドを実行できてしまいます。
 
 **対策：** ベンダーの指示に従って緩和措置を適用し、CISAのBOD 26-04「リスクに基づくセキュリティ更新プログラムの優先順位付け」（注記のURLを参照）およびCISAの「フォレンジック・トリアージ要件」（注記のURLを参照）への準拠を確保してください。 クラウドサービスについては、該当するBOD 26-04のガイダンスに従うか、緩和策が利用できない場合は当該製品の使用を中止してください。各資産のインターネットへの露出状況を評価し、BOD 26-04のパッチ適用ガイドラインを確実に遵守することは、関係者の責任です。
 

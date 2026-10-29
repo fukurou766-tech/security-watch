@@ -1,6 +1,39 @@
 {
-  "updated": "2026-10-29 08:58 JST",
+  "updated": "2026-10-30 08:57 JST",
   "items": [
+    {
+      "source": "CISA KEV",
+      "date": "2026-10-29",
+      "title": "GitLab Community Edition and Enterprise Edition — CVE-2026-97229",
+      "description": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-97229",
+      "priority": "緊急（悪用確認）",
+      "search": "gitlab community edition and enterprise edition cve-2026-97229"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-10-29",
+      "title": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software — CVE-2026-76418",
+      "description": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value to NULL pointer dereference vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-76418",
+      "priority": "緊急（悪用確認）",
+      "search": "cisco secure firewall asa software and cisco secure ftd software cve-2026-76418"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-10-29",
+      "title": "Apache Struts 2 RESTプラグインにおける、@StrutsParameterの制限が@JsonAnySetterに適用されない問題",
+      "description": "The Apache Software Foundationが提供するApache Struts 2のRESTプラグインには、Jacksonの @JsonAnySetter が指定されたフィールドやメソッドに対して @StrutsParameter の制限が行われない問題が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/jp/JVN82782759/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "apache struts 2 restプラグインにおける、@strutsparameterの制限が@jsonanysetterに適用されない問題 the apache software foundationが提供するapache struts 2のrestプラグインには、jacksonの @jsonanysetter が指定されたフィールドやメソッドに対して @strutsparameter の制限が行われない問題が存在します。"
+    },
     {
       "source": "CISA KEV",
       "date": "2026-10-28",
@@ -299,17 +332,6 @@
       "search": "apache tomcatにおける複数の脆弱性（2026年10月20日） the apache software foundationから、apache tomcatの8件の脆弱性に対してアドバイザリが公開されました。"
     },
     {
-      "source": "JVN",
-      "date": "2026-10-21",
-      "title": "CISA ICS Advisory / ICS Medical Advisory（2026年10月20日）",
-      "description": "米国CISAがCISA ICS Advisory / ICS Medical Advisoryを公表しました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU90998702/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "cisa ics advisory / ics medical advisory（2026年10月20日） 米国cisaがcisa ics advisory / ics medical advisoryを公表しました。"
-    },
-    {
       "source": "CISA KEV",
       "date": "2026-10-20",
       "title": "EG Secure Solutions SiteGuard Server Edition — CVE-2026-106931",
@@ -583,28 +605,6 @@
       "cve": "CVE-2026-76504",
       "priority": "緊急（悪用確認）",
       "search": "cisco catalyst sd-wan manager cve-2026-76504"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-09-29",
-      "title": "Apple Multiple Products — CVE-2026-86950",
-      "description": "Apple iOS, macOS, and iPadOS contain an out-of-bounds write vulnerability in CoreGraphics that may lead to arbitrary code execution.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-86950",
-      "priority": "緊急（悪用確認）",
-      "search": "apple multiple products cve-2026-86950"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-09-27",
-      "title": "Citrix NetScaler — CVE-2026-88772",
-      "description": "Citrix NetScaler ADC and NetScaler Gateway contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow for remote code execution or denial of service",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-88772",
-      "priority": "緊急（悪用確認）",
-      "search": "citrix netscaler cve-2026-88772"
     }
   ],
   "warnings": [],
