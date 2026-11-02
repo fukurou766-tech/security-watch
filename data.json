@@ -1,6 +1,28 @@
 {
-  "updated": "2026-11-02 08:55 JST",
+  "updated": "2026-11-03 08:56 JST",
   "items": [
+    {
+      "source": "JVN",
+      "date": "2026-11-02",
+      "title": "Core TempのカーネルドライバにおけるIOCTLインタフェースに対するアクセス制御が不十分な脆弱性",
+      "description": "ALCPUが提供するCore Tempのカーネルドライバには、IOCTLインタフェースに対するアクセス制御が不十分な脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/jp/JVN23328936/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "core tempのカーネルドライバにおけるioctlインタフェースに対するアクセス制御が不十分な脆弱性 alcpuが提供するcore tempのカーネルドライバには、ioctlインタフェースに対するアクセス制御が不十分な脆弱性が存在します。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-02",
+      "title": "Siemens製品に対するアップデート（2026年10月）",
+      "description": "Siemensから各製品向けのアドバイザリが公表されました。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU90141693/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "siemens製品に対するアップデート（2026年10月） siemensから各製品向けのアドバイザリが公表されました。"
+    },
     {
       "source": "CISA KEV",
       "date": "2026-10-30",
@@ -222,17 +244,6 @@
       "search": "covesa vsomeipにおける過剰なメモリ割り当ての脆弱性 cert/ccから本件に関するアドバイザリが公表されました。"
     },
     {
-      "source": "JVN",
-      "date": "2026-10-27",
-      "title": "Siemens製品に対するアップデート（2026年10月）",
-      "description": "Siemensから各製品向けのアドバイザリが公表されました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU90141693/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "siemens製品に対するアップデート（2026年10月） siemensから各製品向けのアドバイザリが公表されました。"
-    },
-    {
       "source": "CISA KEV",
       "date": "2026-10-26",
       "title": "PHP Group PHP — CVE-2026-109618",
@@ -341,17 +352,6 @@
       "cve": "",
       "priority": "要確認",
       "search": "liff sdkにおけるクロスサイトスクリプティングの脆弱性 lineヤフー株式会社が提供するliff sdkには、クロスサイトスクリプティングの脆弱性が存在します。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-10-22",
-      "title": "ISC BINDにおける複数の脆弱性（2026年10月）",
-      "description": "ISC（Internet Systems Consortium）から、ISC BINDの複数の脆弱性が公開されました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU91196958/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "isc bindにおける複数の脆弱性（2026年10月） isc（internet systems consortium）から、isc bindの複数の脆弱性が公開されました。"
     },
     {
       "source": "CISA KEV",
