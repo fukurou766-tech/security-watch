@@ -1,6 +1,83 @@
 {
-  "updated": "2026-11-04 08:59 JST",
+  "updated": "2026-11-05 09:00 JST",
   "items": [
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-04",
+      "title": "Apple Multiple Products — CVE-2024-27834",
+      "description": "Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerability which could allow an attacker with arbitrary read and write capability to bypass pointer authentication.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2024-27834",
+      "priority": "緊急（悪用確認）",
+      "search": "apple multiple products cve-2024-27834"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-04",
+      "title": "Hinemosにおける不適切な権限の割り当ての脆弱性",
+      "description": "株式会社NTTデータ先端技術が提供するHinemosには、不適切な権限の割り当ての脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/jp/JVN46901199/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "hinemosにおける不適切な権限の割り当ての脆弱性 株式会社nttデータ先端技術が提供するhinemosには、不適切な権限の割り当ての脆弱性が存在します。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-04",
+      "title": "Airbyteにおける任意のコードが実行可能な脆弱性",
+      "description": "Airbyteには、不適切なクラスロードにより想定外のコンポーネントを読み込むことができるため、任意のコード実行が可能となる脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/jp/JVN12040144/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "airbyteにおける任意のコードが実行可能な脆弱性 airbyteには、不適切なクラスロードにより想定外のコンポーネントを読み込むことができるため、任意のコード実行が可能となる脆弱性が存在します。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-04",
+      "title": "複数のAkeeba製品におけるクロスサイトリクエストフォージェリの脆弱性",
+      "description": "Akeeba Ltd.が提供する複数の製品には、クロスサイトリクエストフォージェリの脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/jp/JVN44272550/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "複数のakeeba製品におけるクロスサイトリクエストフォージェリの脆弱性 akeeba ltd.が提供する複数の製品には、クロスサイトリクエストフォージェリの脆弱性が存在します。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-04",
+      "title": "INFINITT Healthcare製INFINITT PACS System Managerにおける複数の任意コード実行の脆弱性",
+      "description": "CERT/CCから本件に関するアドバイザリが公表されました。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU99859918/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "infinitt healthcare製infinitt pacs system managerにおける複数の任意コード実行の脆弱性 cert/ccから本件に関するアドバイザリが公表されました。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-04",
+      "title": "Androidアプリ「BaseChat - Audio Dating App」における複数の脆弱性",
+      "description": "CERT/CCから本件に関するアドバイザリが公表されました。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU92281274/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "androidアプリ「basechat - audio dating app」における複数の脆弱性 cert/ccから本件に関するアドバイザリが公表されました。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-04",
+      "title": "CISA ICS Advisory / ICS Medical Advisory（2026年11月03日）",
+      "description": "米国CISAがCISA ICS Advisory / ICS Medical Advisoryを公表しました。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU91151184/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "cisa ics advisory / ics medical advisory（2026年11月03日） 米国cisaがcisa ics advisory / ics medical advisoryを公表しました。"
+    },
     {
       "source": "CISA KEV",
       "date": "2026-11-03",
@@ -277,39 +354,6 @@
       "search": "php group php cve-2026-109619"
     },
     {
-      "source": "JVN",
-      "date": "2026-10-26",
-      "title": "BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）",
-      "description": "Googleのデータ圧縮アルゴリズムBrotliのC言語実装における脆弱性（ CVE-2026-111497 ）に対するアドバイザリが公開されました。 本脆弱性は「HTTP2Shell」や「Node2Shell」とも呼ばれています。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU97400824/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "brotliのc言語実装における境界外書き込みの脆弱性（cve-2026-111497） googleのデータ圧縮アルゴリズムbrotliのc言語実装における脆弱性（ cve-2026-111497 ）に対するアドバイザリが公開されました。 本脆弱性は「http2shell」や「node2shell」とも呼ばれています。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-10-26",
-      "title": "富士電機製V-SFTにおける複数の脆弱性（2026年10月）",
-      "description": "富士電機株式会社が提供するV-SFTには、複数の脆弱性が存在します。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU96549652/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "富士電機製v-sftにおける複数の脆弱性（2026年10月） 富士電機株式会社が提供するv-sftには、複数の脆弱性が存在します。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-10-26",
-      "title": "電子納品物検査支援システムにおけるインストール時の不適切なファイルアクセス権設定の脆弱性",
-      "description": "国土交通省が提供する電子納品物検査支援システムには、インストール時に不適切なファイルアクセス権設定が行われる脆弱性が存在します。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/jp/JVN75668103/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "電子納品物検査支援システムにおけるインストール時の不適切なファイルアクセス権設定の脆弱性 国土交通省が提供する電子納品物検査支援システムには、インストール時に不適切なファイルアクセス権設定が行われる脆弱性が存在します。"
-    },
-    {
       "source": "CISA KEV",
       "date": "2026-10-23",
       "title": "Arista VeloCloud Orchestrator — CVE-2026-114625",
@@ -330,39 +374,6 @@
       "cve": "CVE-2026-110447",
       "priority": "緊急（悪用確認）",
       "search": "collabora collabora online – built-in code server cve-2026-110447"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-10-23",
-      "title": "プリザンターのLDAP認証における認証不備の脆弱性",
-      "description": "株式会社インプリムが提供するプリザンターのLDAP認証には、認証不備の脆弱性が存在します。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/jp/JVN82312317/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "プリザンターのldap認証における認証不備の脆弱性 株式会社インプリムが提供するプリザンターのldap認証には、認証不備の脆弱性が存在します。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-10-23",
-      "title": "CISA ICS Advisory / ICS Medical Advisory（2026年10月22日）",
-      "description": "米国CISAがCISA ICS Advisory / ICS Medical Advisoryを公表しました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU98747108/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "cisa ics advisory / ics medical advisory（2026年10月22日） 米国cisaがcisa ics advisory / ics medical advisoryを公表しました。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-10-22",
-      "title": "LIFF SDKにおけるクロスサイトスクリプティングの脆弱性",
-      "description": "LINEヤフー株式会社が提供するLIFF SDKには、クロスサイトスクリプティングの脆弱性が存在します。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU91023667/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "liff sdkにおけるクロスサイトスクリプティングの脆弱性 lineヤフー株式会社が提供するliff sdkには、クロスサイトスクリプティングの脆弱性が存在します。"
     },
     {
       "source": "CISA KEV",
@@ -594,17 +605,6 @@
       "cve": "CVE-2026-88779",
       "priority": "緊急（悪用確認）",
       "search": "citrix netscaler cve-2026-88779"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-02",
-      "title": "Zammad GmbH Zammad — CVE-2026-102490",
-      "description": "Zammad GmbH Zammad contains an improper privilege management vulnerability that can allow the local zammad user to escalate privileges to root. This vulnerability can be chained with CVE-2026-102489.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-102490",
-      "priority": "緊急（悪用確認）",
-      "search": "zammad gmbh zammad cve-2026-102490"
     }
   ],
   "warnings": [],
