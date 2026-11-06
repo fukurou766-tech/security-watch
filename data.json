@@ -1,6 +1,28 @@
 {
-  "updated": "2026-11-06 09:02 JST",
+  "updated": "2026-11-07 08:58 JST",
   "items": [
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-06",
+      "title": "SonicWall SonicOS SSLVPN — CVE-2026-19868",
+      "description": "SonicWall SonicOS SSLVPN contains a use of single-factor authentication vulnerability that may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA).",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-19868",
+      "priority": "緊急（悪用確認）",
+      "search": "sonicwall sonicos sslvpn cve-2026-19868"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-06",
+      "title": "CISA ICS Advisory / ICS Medical Advisory（2026年11月05日）",
+      "description": "米国CISAがCISA ICS Advisory / ICS Medical Advisoryを公表しました。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU90841469/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "cisa ics advisory / ics medical advisory（2026年11月05日） 米国cisaがcisa ics advisory / ics medical advisoryを公表しました。"
+    },
     {
       "source": "JVN",
       "date": "2026-11-06",
@@ -321,17 +343,6 @@
       "search": "growiにおける複数の脆弱性 株式会社growiが提供するgrowiには、複数の脆弱性が存在します。"
     },
     {
-      "source": "JVN",
-      "date": "2026-10-27",
-      "title": "Sleipnir Mobile for Androidのユーザーインターフェースにおいて偽のアドレスバーなどを表示される脆弱性",
-      "description": "フェンリル株式会社が提供するSleipnir Mobile for Androidには、ユーザーインターフェースにおいて偽のアドレスバーなどを表示される脆弱性が存在します。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/jp/JVN90463048/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "sleipnir mobile for androidのユーザーインターフェースにおいて偽のアドレスバーなどを表示される脆弱性 フェンリル株式会社が提供するsleipnir mobile for androidには、ユーザーインターフェースにおいて偽のアドレスバーなどを表示される脆弱性が存在します。"
-    },
-    {
       "source": "CISA KEV",
       "date": "2026-10-26",
       "title": "PHP Group PHP — CVE-2026-109618",
@@ -594,17 +605,6 @@
       "cve": "CVE-2015-3306",
       "priority": "緊急（悪用確認）",
       "search": "proftpd proftpd cve-2015-3306"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-04",
-      "title": "Citrix NetScaler — CVE-2026-88779",
-      "description": "Citrix NetScaler ADC (formerly Citrix ADC) and Citrix NetScaler Gateway (formerly Citrix Gateway) contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow for a denial of service.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-88779",
-      "priority": "緊急（悪用確認）",
-      "search": "citrix netscaler cve-2026-88779"
     }
   ],
   "warnings": [],
