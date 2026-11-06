@@ -1,6 +1,28 @@
 {
-  "updated": "2026-11-05 09:00 JST",
+  "updated": "2026-11-06 09:02 JST",
   "items": [
+    {
+      "source": "JVN",
+      "date": "2026-11-06",
+      "title": "Siemens製品に対するアップデート（2026年11月）",
+      "description": "Siemensから各製品向けのアドバイザリが公表されました。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU98354779/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "siemens製品に対するアップデート（2026年11月） siemensから各製品向けのアドバイザリが公表されました。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-05",
+      "title": "SHIRASAGIにおける複数の脆弱性",
+      "description": "SHIRASAGI Projectが提供するSHIRASAGIには、複数の脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/jp/JVN55454512/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "shirasagiにおける複数の脆弱性 shirasagi projectが提供するshirasagiには、複数の脆弱性が存在します。"
+    },
     {
       "source": "CISA KEV",
       "date": "2026-11-04",
@@ -308,28 +330,6 @@
       "cve": "",
       "priority": "要確認",
       "search": "sleipnir mobile for androidのユーザーインターフェースにおいて偽のアドレスバーなどを表示される脆弱性 フェンリル株式会社が提供するsleipnir mobile for androidには、ユーザーインターフェースにおいて偽のアドレスバーなどを表示される脆弱性が存在します。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-10-27",
-      "title": "Fireblocks製mpc-libの強化導出（Hardened Derivation）処理における脆弱性",
-      "description": "CERT/CCから本件に関するアドバイザリが公表されました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU90547696/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "fireblocks製mpc-libの強化導出（hardened derivation）処理における脆弱性 cert/ccから本件に関するアドバイザリが公表されました。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-10-27",
-      "title": "COVESA vsomeipにおける過剰なメモリ割り当ての脆弱性",
-      "description": "CERT/CCから本件に関するアドバイザリが公表されました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU90363302/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "covesa vsomeipにおける過剰なメモリ割り当ての脆弱性 cert/ccから本件に関するアドバイザリが公表されました。"
     },
     {
       "source": "CISA KEV",
