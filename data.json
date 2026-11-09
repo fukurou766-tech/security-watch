@@ -1,6 +1,127 @@
 {
-  "updated": "2026-11-09 08:57 JST",
+  "updated": "2026-11-10 08:59 JST",
   "items": [
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-09",
+      "title": "GPUStack GPUStack — CVE-2026-102895",
+      "description": "GPUStack contains an improper authentication vulnerability which could allow unauthenticated administrative access, including user and model changes, persistent administrator API-key creation, disclosure of worker and cloud-provider secrets, and code execution through POST /v2/inference-backends/from-yaml.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-102895",
+      "priority": "緊急（悪用確認）",
+      "search": "gpustack gpustack cve-2026-102895"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-09",
+      "title": "OpenBSD OpenSSH — CVE-2026-123158",
+      "description": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-123158",
+      "priority": "緊急（悪用確認）",
+      "search": "openbsd openssh cve-2026-123158"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-09",
+      "title": "SignalWire FreeSwitch — CVE-2026-116779",
+      "description": "SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credential disclosure, arbitrary call control, and command execution.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-116779",
+      "priority": "緊急（悪用確認）",
+      "search": "signalwire freeswitch cve-2026-116779"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-09",
+      "title": "IBM Aspera Faspex — CVE-2026-123218",
+      "description": "IBM Aspera Faspex contains an incorrect authorization vulnerability that could allow an authenticated user to craft a specific message to bypass authorization, causing privilege escalations.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-123218",
+      "priority": "緊急（悪用確認）",
+      "search": "ibm aspera faspex cve-2026-123218"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-09",
+      "title": "SS1／SS1クラウドおよびそのODM製品rocoeyesにおける複数の脆弱性",
+      "description": "株式会社ディー・オー・エスが提供するSS1／SS1クラウドおよび、株式会社ロココが提供するrocoeyesには複数の脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/jp/JVN76179675/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "ss1／ss1クラウドおよびそのodm製品rocoeyesにおける複数の脆弱性 株式会社ディー・オー・エスが提供するss1／ss1クラウドおよび、株式会社ロココが提供するrocoeyesには複数の脆弱性が存在します。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-09",
+      "title": "WebSAM WinShareにおける複数の脆弱性",
+      "description": "日本電気株式会社が提供するWebSAM WinShareには、複数の脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/jp/JVN89009783/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "websam winshareにおける複数の脆弱性 日本電気株式会社が提供するwebsam winshareには、複数の脆弱性が存在します。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-09",
+      "title": "Effekseerにおける入力データ検証不備の脆弱性",
+      "description": "パーティクルエフェクト編集ツールEffekseerには、入力データ検証不備の脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/jp/JVN56286875/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "effekseerにおける入力データ検証不備の脆弱性 パーティクルエフェクト編集ツールeffekseerには、入力データ検証不備の脆弱性が存在します。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-09",
+      "title": "KUSANAGIにおけるHTTPヘッダーインジェクションの脆弱性",
+      "description": "GMOプライム・ストラテジー株式会社が提供するKUSANAGIには、HTTPヘッダーインジェクションの脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU92635551/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "kusanagiにおけるhttpヘッダーインジェクションの脆弱性 gmoプライム・ストラテジー株式会社が提供するkusanagiには、httpヘッダーインジェクションの脆弱性が存在します。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-09",
+      "title": "Webtop Media Transcoderにおける異なる領域間での不適切なリソースの移動の脆弱性",
+      "description": "オープンウェーブメッセージング株式会社が提供するWebtop Media Transcoderには、異なる領域間での不適切なリソースの移動の脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU93403064/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "webtop media transcoderにおける異なる領域間での不適切なリソースの移動の脆弱性 オープンウェーブメッセージング株式会社が提供するwebtop media transcoderには、異なる領域間での不適切なリソースの移動の脆弱性が存在します。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-09",
+      "title": "Zabbix agentにおけるDLL読み込みに関する脆弱性",
+      "description": "Zabbix LLCが提供するZabbix agentにはDLL読み込みに関する脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/jp/JVN42011956/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "zabbix agentにおけるdll読み込みに関する脆弱性 zabbix llcが提供するzabbix agentにはdll読み込みに関する脆弱性が存在します。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-09",
+      "title": "Siemens製品に対するアップデート（2026年11月）",
+      "description": "Siemensから各製品向けのアドバイザリが公表されました。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU98354779/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "siemens製品に対するアップデート（2026年11月） siemensから各製品向けのアドバイザリが公表されました。"
+    },
     {
       "source": "CISA KEV",
       "date": "2026-11-06",
@@ -22,17 +143,6 @@
       "cve": "",
       "priority": "要確認",
       "search": "cisa ics advisory / ics medical advisory（2026年11月05日） 米国cisaがcisa ics advisory / ics medical advisoryを公表しました。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-11-06",
-      "title": "Siemens製品に対するアップデート（2026年11月）",
-      "description": "Siemensから各製品向けのアドバイザリが公表されました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU98354779/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "siemens製品に対するアップデート（2026年11月） siemensから各製品向けのアドバイザリが公表されました。"
     },
     {
       "source": "JVN",
@@ -255,61 +365,6 @@
       "search": "linux kernel cve-2026-46300"
     },
     {
-      "source": "JVN",
-      "date": "2026-10-28",
-      "title": "PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）",
-      "description": "The PHP Groupから、PHPの2件の脆弱性（CVE-2026-109618、CVE-2026-109619）に対してアドバイザリが公開されました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU99905564/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "phpにおける複数の任意のコードが実行可能な脆弱性（cve-2026-109618、cve-2026-109619） the php groupから、phpの2件の脆弱性（cve-2026-109618、cve-2026-109619）に対してアドバイザリが公開されました。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-10-28",
-      "title": "ヤマハ製NWR100における複数の脆弱性",
-      "description": "ヤマハ株式会社が提供する無線LANルーターNWR100には、複数の脆弱性が存在します。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU91027179/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "ヤマハ製nwr100における複数の脆弱性 ヤマハ株式会社が提供する無線lanルーターnwr100には、複数の脆弱性が存在します。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-10-28",
-      "title": "Yamaha LAN Monitor for WindowsのインストーラにおけるDLL読み込みに関する脆弱性",
-      "description": "ヤマハ株式会社が提供するYamaha LAN Monitor for Windowsのインストーラには、DLL読み込みに関する脆弱性が存在します。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/jp/JVN23695234/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "yamaha lan monitor for windowsのインストーラにおけるdll読み込みに関する脆弱性 ヤマハ株式会社が提供するyamaha lan monitor for windowsのインストーラには、dll読み込みに関する脆弱性が存在します。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-10-28",
-      "title": "ヤマハ製YMS-VPN8およびYMS-VPN8-CPにおける引用符で囲まれていないファイルパスの脆弱性",
-      "description": "ヤマハ株式会社が提供するYMS-VPN8およびYMS-VPN8-CPには、登録されるWindowsサービスプログラムのファイルパスが引用符で囲まれていない問題が存在します。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/jp/JVN30675482/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "ヤマハ製yms-vpn8およびyms-vpn8-cpにおける引用符で囲まれていないファイルパスの脆弱性 ヤマハ株式会社が提供するyms-vpn8およびyms-vpn8-cpには、登録されるwindowsサービスプログラムのファイルパスが引用符で囲まれていない問題が存在します。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-10-28",
-      "title": "CISA ICS Advisory / ICS Medical Advisory（2026年10月27日）",
-      "description": "米国CISAがCISA ICS Advisory / ICS Medical Advisoryを公表しました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU96093239/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "cisa ics advisory / ics medical advisory（2026年10月27日） 米国cisaがcisa ics advisory / ics medical advisoryを公表しました。"
-    },
-    {
       "source": "CISA KEV",
       "date": "2026-10-27",
       "title": "Adobe Commerce and Magento — CVE-2026-48356",
@@ -330,17 +385,6 @@
       "cve": "CVE-2026-111497",
       "priority": "緊急（悪用確認）",
       "search": "google brotli cve-2026-111497"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-10-27",
-      "title": "GROWIにおける複数の脆弱性",
-      "description": "株式会社GROWIが提供するGROWIには、複数の脆弱性が存在します。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/jp/JVN51223238/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "growiにおける複数の脆弱性 株式会社growiが提供するgrowiには、複数の脆弱性が存在します。"
     },
     {
       "source": "CISA KEV",
@@ -561,50 +605,6 @@
       "cve": "CVE-2015-5477",
       "priority": "緊急（悪用確認）",
       "search": "isc bind cve-2015-5477"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-08",
-      "title": "Apache Struts — CVE-2016-3081",
-      "description": "Apache Struts contains a command injection vulnerability that could allow remote attackers to execute arbitrary code via method:prefix when Dynamic Method Invocation is enabled.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2016-3081",
-      "priority": "緊急（悪用確認）",
-      "search": "apache struts cve-2016-3081"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-08",
-      "title": "Strapi Strapi — CVE-2023-22894",
-      "description": "Strapi contains a cleartext storage of sensitive information vulnerability that could allow attackers with access to the admin panel to discover sensitive user details via the query filter. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version. This vulnerability can be chained with CVE-2023-22621 to achieve remote code execution.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2023-22894",
-      "priority": "緊急（悪用確認）",
-      "search": "strapi strapi cve-2023-22894"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-08",
-      "title": "ONLYOFFICE Docs — CVE-2021-3199",
-      "description": "ONLYOFFICE Docs contains a path traversal vulnerability that can occur when JWT is used, via a /.. sequence in an image upload parameter and could allow for remote code execution.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2021-3199",
-      "priority": "緊急（悪用確認）",
-      "search": "onlyoffice docs cve-2021-3199"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-08",
-      "title": "ProFTPD ProFTPD — CVE-2015-3306",
-      "description": "ProFTPD contains an improper access control vulnerability that could allow remote attackers to read and write to arbitrary files via the site cpfr and site cpto commands.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2015-3306",
-      "priority": "緊急（悪用確認）",
-      "search": "proftpd proftpd cve-2015-3306"
     }
   ],
   "warnings": [],
