@@ -1,6 +1,105 @@
 {
-  "updated": "2026-11-10 08:59 JST",
+  "updated": "2026-11-11 08:56 JST",
   "items": [
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-10",
+      "title": "Microsoft Office — CVE-2026-124194",
+      "description": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-124194",
+      "priority": "緊急（悪用確認）",
+      "search": "microsoft office cve-2026-124194"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-10",
+      "title": "Openwave Messaging Limited Webtop Media Transcoder — CVE-2026-111793",
+      "description": "Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability that may allow an authenticated user to process and convert unintended document types if bypassing the Webmail experience.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-111793",
+      "priority": "緊急（悪用確認）",
+      "search": "openwave messaging limited webtop media transcoder cve-2026-111793"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-10",
+      "title": "Cisco BroadWorks — CVE-2026-20320",
+      "description": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-20320",
+      "priority": "緊急（悪用確認）",
+      "search": "cisco broadworks cve-2026-20320"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-10",
+      "title": "Barracuda Networks Multiple Products — CVE-2026-111560",
+      "description": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS command injection vulnerability. This vulnerability could allow an authenticated administrator to inject OS commands that execute with root privileges when the crafted timezone value is subsequently processed. This vulnerability can be chained with CVE-2026-116606",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-111560",
+      "priority": "緊急（悪用確認）",
+      "search": "barracuda networks multiple products cve-2026-111560"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-10",
+      "title": "Barracuda Networks Barracuda Email Security Gateway (ESG) — CVE-2026-116606",
+      "description": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification of the appliance’s global configuration. This vulnerability can be chained with CVE-2026-111560.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-116606",
+      "priority": "緊急（悪用確認）",
+      "search": "barracuda networks barracuda email security gateway (esg) cve-2026-116606"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-10",
+      "title": "Google Chromium — CVE-2026-125350",
+      "description": "Google Chromium contains a use-after-free vulnerability in the XML component that could allow a remote attacker to execute arbitrary code inside the sandbox via a specially crafted webpage. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-125350",
+      "priority": "緊急（悪用確認）",
+      "search": "google chromium cve-2026-125350"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-10",
+      "title": "FrodoBots EarthRover Mini+における複数の脆弱性",
+      "description": "CERT/CCから本件に関するアドバイザリが公表されました。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU96830794/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "frodobots earthrover mini+における複数の脆弱性 cert/ccから本件に関するアドバイザリが公表されました。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-10",
+      "title": "PrestaShopのPerformance DebugモードにおけるPHPコードインジェクションの脆弱性",
+      "description": "CERT/CCから本件に関するアドバイザリが公表されました。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU98836795/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "prestashopのperformance debugモードにおけるphpコードインジェクションの脆弱性 cert/ccから本件に関するアドバイザリが公表されました。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-10",
+      "title": "Airbyteにおける任意のコードが実行可能な脆弱性",
+      "description": "Airbyteには、不適切なクラスロードにより想定外のコンポーネントを読み込むことができるため、任意のコード実行が可能となる脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/jp/JVN12040144/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "airbyteにおける任意のコードが実行可能な脆弱性 airbyteには、不適切なクラスロードにより想定外のコンポーネントを読み込むことができるため、任意のコード実行が可能となる脆弱性が存在します。"
+    },
     {
       "source": "CISA KEV",
       "date": "2026-11-09",
@@ -180,17 +279,6 @@
     {
       "source": "JVN",
       "date": "2026-11-04",
-      "title": "Airbyteにおける任意のコードが実行可能な脆弱性",
-      "description": "Airbyteには、不適切なクラスロードにより想定外のコンポーネントを読み込むことができるため、任意のコード実行が可能となる脆弱性が存在します。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/jp/JVN12040144/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "airbyteにおける任意のコードが実行可能な脆弱性 airbyteには、不適切なクラスロードにより想定外のコンポーネントを読み込むことができるため、任意のコード実行が可能となる脆弱性が存在します。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-11-04",
       "title": "複数のAkeeba製品におけるクロスサイトリクエストフォージェリの脆弱性",
       "description": "Akeeba Ltd.が提供する複数の製品には、クロスサイトリクエストフォージェリの脆弱性が存在します。",
       "action": "公式の対策情報を確認してください。",
@@ -299,17 +387,6 @@
       "search": "三菱電機製の複数製品における複数の脆弱性（2026-006） 三菱電機株式会社が提供するgenesis、genesis64、iconics suite、hyper historian、analytix、mobilehmi、iotworx、mc works64、genesis32およびbizvizには、複数の脆弱性が存在します。"
     },
     {
-      "source": "JVN",
-      "date": "2026-10-30",
-      "title": "CISA ICS Advisory / ICS Medical Advisory（2026年10月29日）",
-      "description": "米国CISAがCISA ICS Advisory / ICS Medical Advisoryを公表しました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU95856220/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "cisa ics advisory / ics medical advisory（2026年10月29日） 米国cisaがcisa ics advisory / ics medical advisoryを公表しました。"
-    },
-    {
       "source": "CISA KEV",
       "date": "2026-10-29",
       "title": "GitLab Community Edition and Enterprise Edition — CVE-2026-97229",
@@ -330,17 +407,6 @@
       "cve": "CVE-2026-76418",
       "priority": "緊急（悪用確認）",
       "search": "cisco secure firewall asa software and cisco secure ftd software cve-2026-76418"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-10-29",
-      "title": "Apache Struts 2 RESTプラグインにおける、@StrutsParameterの制限が@JsonAnySetterに適用されない問題",
-      "description": "The Apache Software Foundationが提供するApache Struts 2のRESTプラグインには、Jacksonの @JsonAnySetter が指定されたフィールドやメソッドに対して @StrutsParameter の制限が行われない問題が存在します。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/jp/JVN82782759/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "apache struts 2 restプラグインにおける、@strutsparameterの制限が@jsonanysetterに適用されない問題 the apache software foundationが提供するapache struts 2のrestプラグインには、jacksonの @jsonanysetter が指定されたフィールドやメソッドに対して @strutsparameter の制限が行われない問題が存在します。"
     },
     {
       "source": "CISA KEV",
@@ -539,72 +605,6 @@
       "cve": "CVE-2026-105134",
       "priority": "緊急（悪用確認）",
       "search": "ahsay ahsaycbs cve-2026-105134"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-14",
-      "title": "Cisco Secure Email Gateway — CVE-2026-76519",
-      "description": "Cisco Secure Email Gateway contains a relative path traversal vulnerability that could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-76519",
-      "priority": "緊急（悪用確認）",
-      "search": "cisco secure email gateway cve-2026-76519"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-14",
-      "title": "Ahsay AhsayCBS — CVE-2026-105133",
-      "description": "Ahsay AhsayCBS contains an improper authentication vulnerability that could allow a remote attacker to bypass authentication via manipulation of the random parameter in the API component’s checkSysPwd function. This vulnerability can be chained with CVE-2026-105134.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-105133",
-      "priority": "緊急（悪用確認）",
-      "search": "ahsay ahsaycbs cve-2026-105133"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-14",
-      "title": "Palo Alto Networks PAN-OS — CVE-2026-0322",
-      "description": "Palo Alto Networks PAN-OS contains a code injection vulnerability that could allow an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-0322",
-      "priority": "緊急（悪用確認）",
-      "search": "palo alto networks pan-os cve-2026-0322"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-13",
-      "title": "Ivanti Connect Secure — CVE-2026-104935",
-      "description": "Ivanti Connect Secure contains an authentication bypass by spoofing vulnerability that allows a remote unauthenticated attacker to execute arbitrary commands.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-104935",
-      "priority": "緊急（悪用確認）",
-      "search": "ivanti connect secure cve-2026-104935"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-13",
-      "title": "Microsoft Windows — CVE-2026-96951",
-      "description": "Microsoft Windows Shell contains a command injection vulnerability that allows an unauthorized attacker to bypass a security feature over a network.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-96951",
-      "priority": "緊急（悪用確認）",
-      "search": "microsoft windows cve-2026-96951"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-08",
-      "title": "ISC BIND — CVE-2015-5477",
-      "description": "ISC BIND contains a data processing errors vulnerability that could allow remote attackers to cause a denial of service via TKEY queries.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2015-5477",
-      "priority": "緊急（悪用確認）",
-      "search": "isc bind cve-2015-5477"
     }
   ],
   "warnings": [],
