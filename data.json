@@ -1,6 +1,83 @@
 {
-  "updated": "2026-11-11 08:56 JST",
+  "updated": "2026-11-12 09:08 JST",
   "items": [
+    {
+      "source": "JVN",
+      "date": "2026-11-12",
+      "title": "Apache HTTP Server 2.4における複数の脆弱性に対するアップデート（2026年11月11日）",
+      "description": "The Apache Software Foundationから、Apache HTTP Server 2.4系における複数の脆弱性に対応したApache HTTP Server 2.4.71が公開されました。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU90805396/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "apache http server 2.4における複数の脆弱性に対するアップデート（2026年11月11日） the apache software foundationから、apache http server 2.4系における複数の脆弱性に対応したapache http server 2.4.71が公開されました。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-11",
+      "title": "Intel製品に対するアップデート（2026年11月）",
+      "description": "Intelから各製品向けのアドバイザリが公表されました。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU93337738/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "intel製品に対するアップデート（2026年11月） intelから各製品向けのアドバイザリが公表されました。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-11",
+      "title": "Sleipnir Mobile for iPhone / iPadにおける不適切な証明書検証の脆弱性",
+      "description": "フェンリル株式会社が提供するSleipnir Mobile for iPhone / iPadおよびSleipnir Mobile for iPhone / iPad Black Editionには、不適切な証明書検証の脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU93068550/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "sleipnir mobile for iphone / ipadにおける不適切な証明書検証の脆弱性 フェンリル株式会社が提供するsleipnir mobile for iphone / ipadおよびsleipnir mobile for iphone / ipad black editionには、不適切な証明書検証の脆弱性が存在します。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-11",
+      "title": "PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）",
+      "description": "The PHP Groupから、PHPの2件の脆弱性（CVE-2026-109618、CVE-2026-109619）に対してアドバイザリが公開されました。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU99905564/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "phpにおける複数の任意のコードが実行可能な脆弱性（cve-2026-109618、cve-2026-109619） the php groupから、phpの2件の脆弱性（cve-2026-109618、cve-2026-109619）に対してアドバイザリが公開されました。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-11",
+      "title": "Movable Typeにおけるコードインジェクションの脆弱性",
+      "description": "シックス・アパート株式会社が提供するMovable Typeには、ダイナミックパブリッシング機能にコードインジェクションの脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/jp/JVN11786640/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "movable typeにおけるコードインジェクションの脆弱性 シックス・アパート株式会社が提供するmovable typeには、ダイナミックパブリッシング機能にコードインジェクションの脆弱性が存在します。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-11",
+      "title": "OpenSSLにおける脆弱性に対するアップデート（2026年11月10日）",
+      "description": "OpenSSL ProjectからOpenSSL Security Advisory [10th November 2026]が公開されました。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU92618679/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "opensslにおける脆弱性に対するアップデート（2026年11月10日） openssl projectからopenssl security advisory [10th november 2026]が公開されました。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-11",
+      "title": "Siemens製品に対するアップデート（2026年11月）",
+      "description": "Siemensから各製品向けのアドバイザリが公表されました。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU98354779/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "siemens製品に対するアップデート（2026年11月） siemensから各製品向けのアドバイザリが公表されました。"
+    },
     {
       "source": "CISA KEV",
       "date": "2026-11-10",
@@ -211,17 +288,6 @@
       "search": "zabbix agentにおけるdll読み込みに関する脆弱性 zabbix llcが提供するzabbix agentにはdll読み込みに関する脆弱性が存在します。"
     },
     {
-      "source": "JVN",
-      "date": "2026-11-09",
-      "title": "Siemens製品に対するアップデート（2026年11月）",
-      "description": "Siemensから各製品向けのアドバイザリが公表されました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU98354779/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "siemens製品に対するアップデート（2026年11月） siemensから各製品向けのアドバイザリが公表されました。"
-    },
-    {
       "source": "CISA KEV",
       "date": "2026-11-06",
       "title": "SonicWall SonicOS SSLVPN — CVE-2026-19868",
@@ -288,39 +354,6 @@
       "search": "複数のakeeba製品におけるクロスサイトリクエストフォージェリの脆弱性 akeeba ltd.が提供する複数の製品には、クロスサイトリクエストフォージェリの脆弱性が存在します。"
     },
     {
-      "source": "JVN",
-      "date": "2026-11-04",
-      "title": "INFINITT Healthcare製INFINITT PACS System Managerにおける複数の任意コード実行の脆弱性",
-      "description": "CERT/CCから本件に関するアドバイザリが公表されました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU99859918/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "infinitt healthcare製infinitt pacs system managerにおける複数の任意コード実行の脆弱性 cert/ccから本件に関するアドバイザリが公表されました。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-11-04",
-      "title": "Androidアプリ「BaseChat - Audio Dating App」における複数の脆弱性",
-      "description": "CERT/CCから本件に関するアドバイザリが公表されました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU92281274/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "androidアプリ「basechat - audio dating app」における複数の脆弱性 cert/ccから本件に関するアドバイザリが公表されました。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-11-04",
-      "title": "CISA ICS Advisory / ICS Medical Advisory（2026年11月03日）",
-      "description": "米国CISAがCISA ICS Advisory / ICS Medical Advisoryを公表しました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU91151184/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "cisa ics advisory / ics medical advisory（2026年11月03日） 米国cisaがcisa ics advisory / ics medical advisoryを公表しました。"
-    },
-    {
       "source": "CISA KEV",
       "date": "2026-11-03",
       "title": "WordPress WordPress Core — CVE-2026-119977",
@@ -330,28 +363,6 @@
       "cve": "CVE-2026-119977",
       "priority": "緊急（悪用確認）",
       "search": "wordpress wordpress core cve-2026-119977"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-11-02",
-      "title": "Core TempのカーネルドライバにおけるIOCTLインタフェースに対するアクセス制御が不十分な脆弱性",
-      "description": "ALCPUが提供するCore Tempのカーネルドライバには、IOCTLインタフェースに対するアクセス制御が不十分な脆弱性が存在します。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/jp/JVN23328936/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "core tempのカーネルドライバにおけるioctlインタフェースに対するアクセス制御が不十分な脆弱性 alcpuが提供するcore tempのカーネルドライバには、ioctlインタフェースに対するアクセス制御が不十分な脆弱性が存在します。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-11-02",
-      "title": "Siemens製品に対するアップデート（2026年10月）",
-      "description": "Siemensから各製品向けのアドバイザリが公表されました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU90141693/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "siemens製品に対するアップデート（2026年10月） siemensから各製品向けのアドバイザリが公表されました。"
     },
     {
       "source": "CISA KEV",
@@ -374,17 +385,6 @@
       "cve": "CVE-2026-111357",
       "priority": "緊急（悪用確認）",
       "search": "ivanti connect secure cve-2026-111357"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-10-30",
-      "title": "三菱電機製の複数製品における複数の脆弱性（2026-006）",
-      "description": "三菱電機株式会社が提供するGENESIS、GENESIS64、ICONICS Suite、Hyper Historian、AnalytiX、MobileHMI、IoTWorX、MC Works64、GENESIS32およびBizVizには、複数の脆弱性が存在します。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU93251594/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "三菱電機製の複数製品における複数の脆弱性（2026-006） 三菱電機株式会社が提供するgenesis、genesis64、iconics suite、hyper historian、analytix、mobilehmi、iotworx、mc works64、genesis32およびbizvizには、複数の脆弱性が存在します。"
     },
     {
       "source": "CISA KEV",
