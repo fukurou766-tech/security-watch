@@ -1,6 +1,50 @@
 {
-  "updated": "2026-11-12 09:08 JST",
+  "updated": "2026-11-13 09:04 JST",
   "items": [
+    {
+      "source": "JVN",
+      "date": "2026-11-12",
+      "title": "KUSANAGIにおけるHTTPヘッダーインジェクションの脆弱性",
+      "description": "GMOプライム・ストラテジー株式会社が提供するKUSANAGIには、HTTPヘッダーインジェクションの脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU92635551/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "kusanagiにおけるhttpヘッダーインジェクションの脆弱性 gmoプライム・ストラテジー株式会社が提供するkusanagiには、httpヘッダーインジェクションの脆弱性が存在します。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-12",
+      "title": "BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）",
+      "description": "Googleのデータ圧縮アルゴリズムBrotliのC言語実装における脆弱性（ CVE-2026-111497 ）に対するアドバイザリが公開されました。 本脆弱性は「HTTP2Shell」や「Node2Shell」とも呼ばれています。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU97400824/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "brotliのc言語実装における境界外書き込みの脆弱性（cve-2026-111497） googleのデータ圧縮アルゴリズムbrotliのc言語実装における脆弱性（ cve-2026-111497 ）に対するアドバイザリが公開されました。 本脆弱性は「http2shell」や「node2shell」とも呼ばれています。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-12",
+      "title": "三菱電機数値制御装置におけるサービス運用妨害（DoS）の脆弱性",
+      "description": "三菱電機数値制御装置（CNC）には、入力値インデックス、位置、またはオフセットの不適切な検証に起因するサービス運用妨害（DoS）の脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU95523788/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "三菱電機数値制御装置におけるサービス運用妨害（dos）の脆弱性 三菱電機数値制御装置（cnc）には、入力値インデックス、位置、またはオフセットの不適切な検証に起因するサービス運用妨害（dos）の脆弱性が存在します。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-12",
+      "title": "SoftBank製Airターミナル6におけるOSコマンドインジェクションの脆弱性",
+      "description": "ソフトバンク株式会社が提供するAirターミナル6には、OSコマンドインジェクションの脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/jp/JVN64740097/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "softbank製airターミナル6におけるosコマンドインジェクションの脆弱性 ソフトバンク株式会社が提供するairターミナル6には、osコマンドインジェクションの脆弱性が存在します。"
+    },
     {
       "source": "JVN",
       "date": "2026-11-12",
@@ -257,17 +301,6 @@
     {
       "source": "JVN",
       "date": "2026-11-09",
-      "title": "KUSANAGIにおけるHTTPヘッダーインジェクションの脆弱性",
-      "description": "GMOプライム・ストラテジー株式会社が提供するKUSANAGIには、HTTPヘッダーインジェクションの脆弱性が存在します。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU92635551/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "kusanagiにおけるhttpヘッダーインジェクションの脆弱性 gmoプライム・ストラテジー株式会社が提供するkusanagiには、httpヘッダーインジェクションの脆弱性が存在します。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-11-09",
       "title": "Webtop Media Transcoderにおける異なる領域間での不適切なリソースの移動の脆弱性",
       "description": "オープンウェーブメッセージング株式会社が提供するWebtop Media Transcoderには、異なる領域間での不適切なリソースの移動の脆弱性が存在します。",
       "action": "公式の対策情報を確認してください。",
@@ -310,17 +343,6 @@
       "search": "cisa ics advisory / ics medical advisory（2026年11月05日） 米国cisaがcisa ics advisory / ics medical advisoryを公表しました。"
     },
     {
-      "source": "JVN",
-      "date": "2026-11-05",
-      "title": "SHIRASAGIにおける複数の脆弱性",
-      "description": "SHIRASAGI Projectが提供するSHIRASAGIには、複数の脆弱性が存在します。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/jp/JVN55454512/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "shirasagiにおける複数の脆弱性 shirasagi projectが提供するshirasagiには、複数の脆弱性が存在します。"
-    },
-    {
       "source": "CISA KEV",
       "date": "2026-11-04",
       "title": "Apple Multiple Products — CVE-2024-27834",
@@ -330,28 +352,6 @@
       "cve": "CVE-2024-27834",
       "priority": "緊急（悪用確認）",
       "search": "apple multiple products cve-2024-27834"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-11-04",
-      "title": "Hinemosにおける不適切な権限の割り当ての脆弱性",
-      "description": "株式会社NTTデータ先端技術が提供するHinemosには、不適切な権限の割り当ての脆弱性が存在します。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/jp/JVN46901199/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "hinemosにおける不適切な権限の割り当ての脆弱性 株式会社nttデータ先端技術が提供するhinemosには、不適切な権限の割り当ての脆弱性が存在します。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-11-04",
-      "title": "複数のAkeeba製品におけるクロスサイトリクエストフォージェリの脆弱性",
-      "description": "Akeeba Ltd.が提供する複数の製品には、クロスサイトリクエストフォージェリの脆弱性が存在します。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/jp/JVN44272550/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "複数のakeeba製品におけるクロスサイトリクエストフォージェリの脆弱性 akeeba ltd.が提供する複数の製品には、クロスサイトリクエストフォージェリの脆弱性が存在します。"
     },
     {
       "source": "CISA KEV",
