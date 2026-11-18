@@ -1,6 +1,94 @@
 {
-  "updated": "2026-11-17 09:04 JST",
+  "updated": "2026-11-18 09:11 JST",
   "items": [
+    {
+      "source": "JVN",
+      "date": "2026-11-18",
+      "title": "OpenSSLにおける脆弱性に対するアップデート（2026年11月17日）",
+      "description": "OpenSSL ProjectからOpenSSL Security Advisory [17th November 2026]が公開されました。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU96847970/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "opensslにおける脆弱性に対するアップデート（2026年11月17日） openssl projectからopenssl security advisory [17th november 2026]が公開されました。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-18",
+      "title": "CISA ICS Advisory / ICS Medical Advisory（2026年11月17日）",
+      "description": "米国CISAがCISA ICS Advisory / ICS Medical Advisoryを公表しました。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU99888632/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "cisa ics advisory / ics medical advisory（2026年11月17日） 米国cisaがcisa ics advisory / ics medical advisoryを公表しました。"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-17",
+      "title": "Perforce Puppet Enterprise — CVE-2026-115731",
+      "description": "Perforce Puppet Enterprise contains a deserialization of untrusted data vulnerability in Puppet’s report-processing code that allows a client with any CA-signed agent certificate to execute arbitrary code on the Puppet Server as the service user by submitting a report containing a crafted rich-data type through a PUT request. If the certificate authority automatically signs requests without strong verification, an unauthenticated network attacker can obtain a valid certificate and exploit the vulnerability.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-115731",
+      "priority": "緊急（悪用確認）",
+      "search": "perforce puppet enterprise cve-2026-115731"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-17",
+      "title": "プリザンターにおける複数の脆弱性",
+      "description": "株式会社インプリムが提供するプリザンターには、複数の脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/jp/JVN02242982/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "プリザンターにおける複数の脆弱性 株式会社インプリムが提供するプリザンターには、複数の脆弱性が存在します。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-17",
+      "title": "エレコム製無線LANルータにおける複数の脆弱性",
+      "description": "エレコム株式会社が提供する無線LANルータには、複数の脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU91615135/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "エレコム製無線lanルータにおける複数の脆弱性 エレコム株式会社が提供する無線lanルータには、複数の脆弱性が存在します。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-17",
+      "title": "エレコム製無線LANルータにおけるOSコマンドインジェクションの脆弱性",
+      "description": "エレコム株式会社が提供する無線LANルータには、OSコマンドインジェクションの脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU92504317/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "エレコム製無線lanルータにおけるosコマンドインジェクションの脆弱性 エレコム株式会社が提供する無線lanルータには、osコマンドインジェクションの脆弱性が存在します。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-17",
+      "title": "複数製品におけるmacOS（APFS）とのUnicode正規化不整合によるファイルアクセス制限回避の脆弱性",
+      "description": "CERT/CCから本件に関するアドバイザリが公表されました。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU93605944/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "複数製品におけるmacos（apfs）とのunicode正規化不整合によるファイルアクセス制限回避の脆弱性 cert/ccから本件に関するアドバイザリが公表されました。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-17",
+      "title": "富士電機製TELLUSにおける複数の脆弱性（2026年11月）",
+      "description": "富士電機株式会社が提供するTELLUSには、複数の脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU97628215/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "富士電機製tellusにおける複数の脆弱性（2026年11月） 富士電機株式会社が提供するtellusには、複数の脆弱性が存在します。"
+    },
     {
       "source": "CISA KEV",
       "date": "2026-11-13",
@@ -167,50 +255,6 @@
       "search": "sleipnir mobile for iphone / ipadにおける不適切な証明書検証の脆弱性 フェンリル株式会社が提供するsleipnir mobile for iphone / ipadおよびsleipnir mobile for iphone / ipad black editionには、不適切な証明書検証の脆弱性が存在します。"
     },
     {
-      "source": "JVN",
-      "date": "2026-11-11",
-      "title": "PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）",
-      "description": "The PHP Groupから、PHPの2件の脆弱性（CVE-2026-109618、CVE-2026-109619）に対してアドバイザリが公開されました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU99905564/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "phpにおける複数の任意のコードが実行可能な脆弱性（cve-2026-109618、cve-2026-109619） the php groupから、phpの2件の脆弱性（cve-2026-109618、cve-2026-109619）に対してアドバイザリが公開されました。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-11-11",
-      "title": "Movable Typeにおけるコードインジェクションの脆弱性",
-      "description": "シックス・アパート株式会社が提供するMovable Typeには、ダイナミックパブリッシング機能にコードインジェクションの脆弱性が存在します。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/jp/JVN11786640/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "movable typeにおけるコードインジェクションの脆弱性 シックス・アパート株式会社が提供するmovable typeには、ダイナミックパブリッシング機能にコードインジェクションの脆弱性が存在します。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-11-11",
-      "title": "OpenSSLにおける脆弱性に対するアップデート（2026年11月10日）",
-      "description": "OpenSSL ProjectからOpenSSL Security Advisory [10th November 2026]が公開されました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU92618679/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "opensslにおける脆弱性に対するアップデート（2026年11月10日） openssl projectからopenssl security advisory [10th november 2026]が公開されました。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-11-11",
-      "title": "Siemens製品に対するアップデート（2026年11月）",
-      "description": "Siemensから各製品向けのアドバイザリが公表されました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU98354779/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "siemens製品に対するアップデート（2026年11月） siemensから各製品向けのアドバイザリが公表されました。"
-    },
-    {
       "source": "CISA KEV",
       "date": "2026-11-10",
       "title": "Microsoft Office — CVE-2026-124194",
@@ -275,39 +319,6 @@
       "cve": "CVE-2026-125350",
       "priority": "緊急（悪用確認）",
       "search": "google chromium cve-2026-125350"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-11-10",
-      "title": "FrodoBots EarthRover Mini+における複数の脆弱性",
-      "description": "CERT/CCから本件に関するアドバイザリが公表されました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU96830794/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "frodobots earthrover mini+における複数の脆弱性 cert/ccから本件に関するアドバイザリが公表されました。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-11-10",
-      "title": "PrestaShopのPerformance DebugモードにおけるPHPコードインジェクションの脆弱性",
-      "description": "CERT/CCから本件に関するアドバイザリが公表されました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU98836795/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "prestashopのperformance debugモードにおけるphpコードインジェクションの脆弱性 cert/ccから本件に関するアドバイザリが公表されました。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-11-10",
-      "title": "Airbyteにおける任意のコードが実行可能な脆弱性",
-      "description": "Airbyteには、不適切なクラスロードにより想定外のコンポーネントを読み込むことができるため、任意のコード実行が可能となる脆弱性が存在します。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/jp/JVN12040144/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "airbyteにおける任意のコードが実行可能な脆弱性 airbyteには、不適切なクラスロードにより想定外のコンポーネントを読み込むことができるため、任意のコード実行が可能となる脆弱性が存在します。"
     },
     {
       "source": "CISA KEV",
@@ -594,17 +605,6 @@
       "cve": "CVE-2026-102764",
       "priority": "緊急（悪用確認）",
       "search": "beyondtrust remote support cve-2026-102764"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-16",
-      "title": "Fortinet Multiple Products — CVE-2025-61624",
-      "description": "FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager contain a path traversal vulnerability that may allow an authenticated attacker with admin profile and at least read-write permissions to write or delete arbitrary files via specific CLI commands.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2025-61624",
-      "priority": "緊急（悪用確認）",
-      "search": "fortinet multiple products cve-2025-61624"
     }
   ],
   "warnings": [],
