@@ -1,6 +1,94 @@
 {
-  "updated": "2026-11-18 09:11 JST",
+  "updated": "2026-11-19 09:13 JST",
   "items": [
+    {
+      "source": "JVN",
+      "date": "2026-11-19",
+      "title": "Siemens製品に対するアップデート（2026年11月）",
+      "description": "Siemensから各製品向けのアドバイザリが公表されました。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU98354779/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "siemens製品に対するアップデート（2026年11月） siemensから各製品向けのアドバイザリが公表されました。"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-18",
+      "title": "Synology DiskStation Manager (DSM) — CVE-2024-10441",
+      "description": "Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2024-10441",
+      "priority": "緊急（悪用確認）",
+      "search": "synology diskstation manager (dsm) cve-2024-10441"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-18",
+      "title": "BerriAI LiteLLM — CVE-2026-40217",
+      "description": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-40217",
+      "priority": "緊急（悪用確認）",
+      "search": "berriai litellm cve-2026-40217"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-18",
+      "title": "Vanderbilt University Research Electronic Data Capture (REDCap) — CVE-2026-90817",
+      "description": "Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerability which could allow an unauthenticated attacker to execute arbitrary code on the server. An attacker could exploit this via crafted HTTP requests that access an unintended controller route from a public survey context and supply a crafted file-path or stream parameter during data import processing. Exploitation requires knowledge of a valid public survey hash.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-90817",
+      "priority": "緊急（悪用確認）",
+      "search": "vanderbilt university research electronic data capture (redcap) cve-2026-90817"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-18",
+      "title": "Apache Axis — CVE-2026-90436",
+      "description": "Apache Axis contains an unsafe reflection vulnerability that could allow an unauthenticated remote attacker to execute arbitrary code via a crafted SOAP fault message that causes Axis to load and instantiate an attacker-specified class when a suitable class is available on the application classpath. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-90436",
+      "priority": "緊急（悪用確認）",
+      "search": "apache axis cve-2026-90436"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-18",
+      "title": "OpenJDKにおけるヒープベースのバッファオーバーフローの脆弱性",
+      "description": "OpenJDKにはヒープベースのバッファオーバーフローの脆弱性（CVE-2026-114938）が存在します。 本脆弱性の発見者は本件を「Java4Shell」と呼称し、Base64デコード処理を高速化するための最適化処理に原因があると指摘しています。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU99608534/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "openjdkにおけるヒープベースのバッファオーバーフローの脆弱性 openjdkにはヒープベースのバッファオーバーフローの脆弱性（cve-2026-114938）が存在します。 本脆弱性の発見者は本件を「java4shell」と呼称し、base64デコード処理を高速化するための最適化処理に原因があると指摘しています。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-18",
+      "title": "ISC BINDにおける複数の脆弱性（2026年10月）",
+      "description": "ISC（Internet Systems Consortium）から、ISC BINDの複数の脆弱性が公開されました。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU91196958/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "isc bindにおける複数の脆弱性（2026年10月） isc（internet systems consortium）から、isc bindの複数の脆弱性が公開されました。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-18",
+      "title": "Androidアプリ「宮内庁参観音声ガイド- 宮内庁公式アプリ」における複数の脆弱性",
+      "description": "宮内庁が提供するAndroidアプリ「宮内庁参観音声ガイド- 宮内庁公式アプリ」には、複数の脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/jp/JVN19906678/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "androidアプリ「宮内庁参観音声ガイド- 宮内庁公式アプリ」における複数の脆弱性 宮内庁が提供するandroidアプリ「宮内庁参観音声ガイド- 宮内庁公式アプリ」には、複数の脆弱性が存在します。"
+    },
     {
       "source": "JVN",
       "date": "2026-11-18",
@@ -209,50 +297,6 @@
       "cve": "",
       "priority": "要確認",
       "search": "三菱電機数値制御装置におけるサービス運用妨害（dos）の脆弱性 三菱電機数値制御装置（cnc）には、入力値インデックス、位置、またはオフセットの不適切な検証に起因するサービス運用妨害（dos）の脆弱性が存在します。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-11-12",
-      "title": "SoftBank製Airターミナル6におけるOSコマンドインジェクションの脆弱性",
-      "description": "ソフトバンク株式会社が提供するAirターミナル6には、OSコマンドインジェクションの脆弱性が存在します。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/jp/JVN64740097/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "softbank製airターミナル6におけるosコマンドインジェクションの脆弱性 ソフトバンク株式会社が提供するairターミナル6には、osコマンドインジェクションの脆弱性が存在します。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-11-12",
-      "title": "Apache HTTP Server 2.4における複数の脆弱性に対するアップデート（2026年11月11日）",
-      "description": "The Apache Software Foundationから、Apache HTTP Server 2.4系における複数の脆弱性に対応したApache HTTP Server 2.4.71が公開されました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU90805396/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "apache http server 2.4における複数の脆弱性に対するアップデート（2026年11月11日） the apache software foundationから、apache http server 2.4系における複数の脆弱性に対応したapache http server 2.4.71が公開されました。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-11-11",
-      "title": "Intel製品に対するアップデート（2026年11月）",
-      "description": "Intelから各製品向けのアドバイザリが公表されました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU93337738/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "intel製品に対するアップデート（2026年11月） intelから各製品向けのアドバイザリが公表されました。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-11-11",
-      "title": "Sleipnir Mobile for iPhone / iPadにおける不適切な証明書検証の脆弱性",
-      "description": "フェンリル株式会社が提供するSleipnir Mobile for iPhone / iPadおよびSleipnir Mobile for iPhone / iPad Black Editionには、不適切な証明書検証の脆弱性が存在します。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU93068550/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "sleipnir mobile for iphone / ipadにおける不適切な証明書検証の脆弱性 フェンリル株式会社が提供するsleipnir mobile for iphone / ipadおよびsleipnir mobile for iphone / ipad black editionには、不適切な証明書検証の脆弱性が存在します。"
     },
     {
       "source": "CISA KEV",
@@ -561,50 +605,6 @@
       "cve": "CVE-2026-96655",
       "priority": "緊急（悪用確認）",
       "search": "plex media server cve-2026-96655"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-20",
-      "title": "Plex Media Server — CVE-2026-96654",
-      "description": "Plex Media Server contains an improper neutralization of encoded URI schemes in a web page vulnerability that could allow an attacker to call other plugins' functions and supply their own parameters. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96655, and CVE-2026-96656.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-96654",
-      "priority": "緊急（悪用確認）",
-      "search": "plex media server cve-2026-96654"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-20",
-      "title": "Plex Media Server — CVE-2026-96652",
-      "description": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability which could allow an attacker using any X-Plex-Token value to include a full URL in the 'protocol' parameter and force the Plex server to POST to the attacker's chosen destination. This vulnerability can be chained with CVE-2026-96654, CVE-2026-96655, and CVE-2026-96656.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-96652",
-      "priority": "緊急（悪用確認）",
-      "search": "plex media server cve-2026-96652"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-20",
-      "title": "Siemens Software Center — CVE-2026-110936",
-      "description": "Siemens Software Center contains an uncontrolled search path element vulnerability that could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to arbitrary code execution with the privileges of the affected application.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-110936",
-      "priority": "緊急（悪用確認）",
-      "search": "siemens software center cve-2026-110936"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-16",
-      "title": "BeyondTrust Remote Support — CVE-2026-102764",
-      "description": "BeyondTrust Remote Support contains an authentication bypass by spoofing vulnerability that could allow a remote attacker to perform file operations on the appliance.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-102764",
-      "priority": "緊急（悪用確認）",
-      "search": "beyondtrust remote support cve-2026-102764"
     }
   ],
   "warnings": [],
