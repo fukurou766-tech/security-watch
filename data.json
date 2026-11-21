@@ -1,6 +1,72 @@
 {
-  "updated": "2026-11-20 09:06 JST",
+  "updated": "2026-11-21 09:11 JST",
   "items": [
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-20",
+      "title": "Apache Roller — CVE-2026-129448",
+      "description": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underlying vulnerability as CVE-2026-82384 but applies to a broader range of affected versions.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-129448",
+      "priority": "緊急（悪用確認）",
+      "search": "apache roller cve-2026-129448"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-20",
+      "title": "Broadcom VMware vCenter — CVE-2026-123890",
+      "description": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-123890",
+      "priority": "緊急（悪用確認）",
+      "search": "broadcom vmware vcenter cve-2026-123890"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-20",
+      "title": "SAP NetWeaver — CVE-2025-42884",
+      "description": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment properties or a URL used during JNDI lookup operations.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2025-42884",
+      "priority": "緊急（悪用確認）",
+      "search": "sap netweaver cve-2025-42884"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-20",
+      "title": "Cisco Expressway Series — CVE-2026-76466",
+      "description": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-76466",
+      "priority": "緊急（悪用確認）",
+      "search": "cisco expressway series cve-2026-76466"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-20",
+      "title": "SoftBank製Airターミナル6におけるOSコマンドインジェクションの脆弱性",
+      "description": "ソフトバンク株式会社が提供するAirターミナル6には、OSコマンドインジェクションの脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/jp/JVN64740097/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "softbank製airターミナル6におけるosコマンドインジェクションの脆弱性 ソフトバンク株式会社が提供するairターミナル6には、osコマンドインジェクションの脆弱性が存在します。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-20",
+      "title": "CISA ICS Advisory / ICS Medical Advisory（2026年11月19日）",
+      "description": "米国CISAがCISA ICS Advisory / ICS Medical Advisoryを公表しました。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU92814490/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "cisa ics advisory / ics medical advisory（2026年11月19日） 米国cisaがcisa ics advisory / ics medical advisoryを公表しました。"
+    },
     {
       "source": "JVN",
       "date": "2026-11-20",
@@ -277,28 +343,6 @@
       "search": "promzardにおけるリモートコード実行の脆弱性 cert/ccから本件に関するアドバイザリが公表されました。"
     },
     {
-      "source": "JVN",
-      "date": "2026-11-13",
-      "title": "ComfyUIのComfyUI-Easy-Use拡張機能における認証不要のパストラバーサルの脆弱性",
-      "description": "CERT/CCから本件に関するアドバイザリが公表されました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU99429639/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "comfyuiのcomfyui-easy-use拡張機能における認証不要のパストラバーサルの脆弱性 cert/ccから本件に関するアドバイザリが公表されました。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-11-12",
-      "title": "KUSANAGIにおけるHTTPヘッダーインジェクションの脆弱性",
-      "description": "GMOプライム・ストラテジー株式会社が提供するKUSANAGIには、HTTPヘッダーインジェクションの脆弱性が存在します。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU92635551/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "kusanagiにおけるhttpヘッダーインジェクションの脆弱性 gmoプライム・ストラテジー株式会社が提供するkusanagiには、httpヘッダーインジェクションの脆弱性が存在します。"
-    },
-    {
       "source": "CISA KEV",
       "date": "2026-11-10",
       "title": "Microsoft Office — CVE-2026-124194",
@@ -561,50 +605,6 @@
       "cve": "CVE-2026-114625",
       "priority": "緊急（悪用確認）",
       "search": "arista velocloud orchestrator cve-2026-114625"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-23",
-      "title": "Collabora Collabora Online – Built-in CODE Server — CVE-2026-110447",
-      "description": "Collabora Collabora Online – Built-in CODE Server when used within the NextCloud platform contains an OS command injection vulnerability that allows for remote code execution when the CODE server isn't running.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-110447",
-      "priority": "緊急（悪用確認）",
-      "search": "collabora collabora online – built-in code server cve-2026-110447"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-20",
-      "title": "EG Secure Solutions SiteGuard Server Edition — CVE-2026-106931",
-      "description": "EG Secure Solutions SiteGuard Server Edition contains an OS command injection vulnerability which may allow an attacker to execute arbitrary OS commands with root or SYSTEM privileges on the system running the affected product.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-106931",
-      "priority": "緊急（悪用確認）",
-      "search": "eg secure solutions siteguard server edition cve-2026-106931"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-20",
-      "title": "Plex Media Server — CVE-2026-96656",
-      "description": "Plex Media Server contains an external control of file name or path vulnerability which can allow an admin user to write arbitrary files that may be executed on load. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96655.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-96656",
-      "priority": "緊急（悪用確認）",
-      "search": "plex media server cve-2026-96656"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-20",
-      "title": "Plex Media Server — CVE-2026-96655",
-      "description": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability that could allow an authenticated user to request arbitrary internal or external addresses via the '/video/:/transcode/universal' path parameter. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96656.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-96655",
-      "priority": "緊急（悪用確認）",
-      "search": "plex media server cve-2026-96655"
     }
   ],
   "warnings": [],
