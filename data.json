@@ -1,6 +1,50 @@
 {
-  "updated": "2026-11-23 12:52 JST",
+  "updated": "2026-11-24 15:59 JST",
   "items": [
+    {
+      "source": "JVN",
+      "date": "2026-11-24",
+      "title": "Zoraxyにおける複数の脆弱性",
+      "description": "Zoraxy Projectが提供するZoraxyには、複数の脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/jp/JVN84156789/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "zoraxyにおける複数の脆弱性 zoraxy projectが提供するzoraxyには、複数の脆弱性が存在します。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-24",
+      "title": "Siemens製品に対するアップデート（2026年11月）",
+      "description": "Siemensから各製品向けのアドバイザリが公表されました。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU98354779/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "siemens製品に対するアップデート（2026年11月） siemensから各製品向けのアドバイザリが公表されました。"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-23",
+      "title": "Project MONAI MONAI Label — CVE-2026-133968",
+      "description": "Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-133968",
+      "priority": "緊急（悪用確認）",
+      "search": "project monai monai label cve-2026-133968"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-23",
+      "title": "N-able MailAssure — CVE-2026-134624",
+      "description": "N-able MailAssure (SpamExperts) contains a server-side request forgery vulnerability in the LDAP synchronization connection check that allows an authenticated API user to connect to arbitrary internal hosts and ports, determine which are reachable, and send crafted data to internal services.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-134624",
+      "priority": "緊急（悪用確認）",
+      "search": "n-able mailassure cve-2026-134624"
+    },
     {
       "source": "CISA KEV",
       "date": "2026-11-20",
@@ -66,17 +110,6 @@
       "cve": "",
       "priority": "要確認",
       "search": "cisa ics advisory / ics medical advisory（2026年11月19日） 米国cisaがcisa ics advisory / ics medical advisoryを公表しました。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-11-20",
-      "title": "Siemens製品に対するアップデート（2026年11月）",
-      "description": "Siemensから各製品向けのアドバイザリが公表されました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU98354779/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "siemens製品に対するアップデート（2026年11月） siemensから各製品向けのアドバイザリが公表されました。"
     },
     {
       "source": "JVN",
@@ -332,17 +365,6 @@
       "search": "imagemagickを利用したアプリケーションにおける任意ファイル読み書きの脆弱性 cert/ccから本件に関するアドバイザリが公表されました。"
     },
     {
-      "source": "JVN",
-      "date": "2026-11-13",
-      "title": "PromZardにおけるリモートコード実行の脆弱性",
-      "description": "CERT/CCから本件に関するアドバイザリが公表されました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU98641453/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "promzardにおけるリモートコード実行の脆弱性 cert/ccから本件に関するアドバイザリが公表されました。"
-    },
-    {
       "source": "CISA KEV",
       "date": "2026-11-10",
       "title": "Microsoft Office — CVE-2026-124194",
@@ -583,28 +605,6 @@
       "cve": "CVE-2026-109618",
       "priority": "緊急（悪用確認）",
       "search": "php group php cve-2026-109618"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-26",
-      "title": "PHP Group PHP — CVE-2026-109619",
-      "description": "PHP contains a stale internal request-state vulnerability that allows for unauthenticated remote code execution.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-109619",
-      "priority": "緊急（悪用確認）",
-      "search": "php group php cve-2026-109619"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-23",
-      "title": "Arista VeloCloud Orchestrator — CVE-2026-114625",
-      "description": "Arista VeloCloud Orchestrator on-prem contains a SQL injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-114625",
-      "priority": "緊急（悪用確認）",
-      "search": "arista velocloud orchestrator cve-2026-114625"
     }
   ],
   "warnings": [],
