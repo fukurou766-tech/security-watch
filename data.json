@@ -1,6 +1,83 @@
 {
-  "updated": "2026-11-24 15:59 JST",
+  "updated": "2026-11-25 14:33 JST",
   "items": [
+    {
+      "source": "JVN",
+      "date": "2026-11-25",
+      "title": "源内Webにおけるサーバサイドリクエストフォージェリの脆弱性",
+      "description": "デジタル庁が提供する源内Webには、サーバサイドリクエストフォージェリの脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/jp/JVN78929433/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "源内webにおけるサーバサイドリクエストフォージェリの脆弱性 デジタル庁が提供する源内webには、サーバサイドリクエストフォージェリの脆弱性が存在します。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-25",
+      "title": "Siemens製品に対するアップデート（2026年11月）",
+      "description": "Siemensから各製品向けのアドバイザリが公表されました。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU98354779/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "siemens製品に対するアップデート（2026年11月） siemensから各製品向けのアドバイザリが公表されました。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-25",
+      "title": "OpenSSLにおける脆弱性に対するアップデート（2026年11月24日）",
+      "description": "OpenSSL ProjectからOpenSSL Security Advisory [24th November 2026]が公開されました。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU95723901/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "opensslにおける脆弱性に対するアップデート（2026年11月24日） openssl projectからopenssl security advisory [24th november 2026]が公開されました。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-25",
+      "title": "CISA ICS Advisory / ICS Medical Advisory（2026年11月24日）",
+      "description": "米国CISAがCISA ICS Advisory / ICS Medical Advisoryを公表しました。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU93291989/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "cisa ics advisory / ics medical advisory（2026年11月24日） 米国cisaがcisa ics advisory / ics medical advisoryを公表しました。"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-24",
+      "title": "Optimizely Web Experimentation — CVE-2026-132224",
+      "description": "Optimizely Web Experimentation contains an external control of critical state data vulnerability in its account signup flow that could allow an attacker to impersonate existing customer users and modify Project JavaScript. Successful exploitation can result in attacker-controlled JavaScript being distributed through Optimizely-hosted assets and executed in browsers visiting affected customer websites.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-132224",
+      "priority": "緊急（悪用確認）",
+      "search": "optimizely web experimentation cve-2026-132224"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-24",
+      "title": "Idunno AntiCsrf — CVE-2026-131914",
+      "description": "Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-131914",
+      "priority": "緊急（悪用確認）",
+      "search": "idunno anticsrf cve-2026-131914"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-24",
+      "title": "Drupal Core — CVE-2026-132165",
+      "description": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use install.php to attempt to reinstall Drupal on the site.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-132165",
+      "priority": "緊急（悪用確認）",
+      "search": "drupal core cve-2026-132165"
+    },
     {
       "source": "JVN",
       "date": "2026-11-24",
@@ -11,17 +88,6 @@
       "cve": "",
       "priority": "要確認",
       "search": "zoraxyにおける複数の脆弱性 zoraxy projectが提供するzoraxyには、複数の脆弱性が存在します。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-11-24",
-      "title": "Siemens製品に対するアップデート（2026年11月）",
-      "description": "Siemensから各製品向けのアドバイザリが公表されました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU98354779/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "siemens製品に対するアップデート（2026年11月） siemensから各製品向けのアドバイザリが公表されました。"
     },
     {
       "source": "CISA KEV",
@@ -332,39 +398,6 @@
       "search": "jetbrains製youtrackにおけるクロスサイトスクリプティングの脆弱性 jetbrains s.r.o.が提供するyoutrackには、クロスサイトスクリプティングの脆弱性が存在します。"
     },
     {
-      "source": "JVN",
-      "date": "2026-11-13",
-      "title": "CISA ICS Advisory / ICS Medical Advisory（2026年11月12日）",
-      "description": "米国CISAがCISA ICS Advisory / ICS Medical Advisoryを公表しました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU90821966/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "cisa ics advisory / ics medical advisory（2026年11月12日） 米国cisaがcisa ics advisory / ics medical advisoryを公表しました。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-11-13",
-      "title": "TightVNCおよびUltraVNCのWindows Viewerにおけるヒープベースのバッファオーバーフローの脆弱性",
-      "description": "CERT/CCから本件に関するアドバイザリが公表されました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU92656681/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "tightvncおよびultravncのwindows viewerにおけるヒープベースのバッファオーバーフローの脆弱性 cert/ccから本件に関するアドバイザリが公表されました。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-11-13",
-      "title": "ImageMagickを利用したアプリケーションにおける任意ファイル読み書きの脆弱性",
-      "description": "CERT/CCから本件に関するアドバイザリが公表されました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU95718857/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "imagemagickを利用したアプリケーションにおける任意ファイル読み書きの脆弱性 cert/ccから本件に関するアドバイザリが公表されました。"
-    },
-    {
       "source": "CISA KEV",
       "date": "2026-11-10",
       "title": "Microsoft Office — CVE-2026-124194",
@@ -572,39 +605,6 @@
       "cve": "CVE-2026-46300",
       "priority": "緊急（悪用確認）",
       "search": "linux kernel cve-2026-46300"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-27",
-      "title": "Adobe Commerce and Magento — CVE-2026-48356",
-      "description": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-48356",
-      "priority": "緊急（悪用確認）",
-      "search": "adobe commerce and magento cve-2026-48356"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-27",
-      "title": "Google Brotli — CVE-2026-111497",
-      "description": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-111497",
-      "priority": "緊急（悪用確認）",
-      "search": "google brotli cve-2026-111497"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-26",
-      "title": "PHP Group PHP — CVE-2026-109618",
-      "description": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-109618",
-      "priority": "緊急（悪用確認）",
-      "search": "php group php cve-2026-109618"
     }
   ],
   "warnings": [],
