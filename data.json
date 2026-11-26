@@ -1,6 +1,149 @@
 {
-  "updated": "2026-11-25 14:33 JST",
+  "updated": "2026-11-26 14:15 JST",
   "items": [
+    {
+      "source": "JVN",
+      "date": "2026-11-26",
+      "title": "Androidアプリ「東京消防庁公式アプリ」におけるパストラバーサルの脆弱性",
+      "description": "東京消防庁が提供するAndroidアプリ「東京消防庁公式アプリ」には、パストラバーサルの脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/jp/JVN16383801/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "androidアプリ「東京消防庁公式アプリ」におけるパストラバーサルの脆弱性 東京消防庁が提供するandroidアプリ「東京消防庁公式アプリ」には、パストラバーサルの脆弱性が存在します。"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-26",
+      "title": "baserCMSにおける複数の脆弱性",
+      "description": "baserCMSユーザー会が提供するbaserCMSには、複数の脆弱性が存在します。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/jp/JVN25972114/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "basercmsにおける複数の脆弱性 basercmsユーザー会が提供するbasercmsには、複数の脆弱性が存在します。"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-25",
+      "title": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router — CVE-2026-103406",
+      "description": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router contain an OS command injection vulnerability that could allow a remote attacker to execute arbitrary commands as root via a specially crafted salt minion ID.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-103406",
+      "priority": "緊急（悪用確認）",
+      "search": "hewlett packard enterprise (hpe) juniper session smart conductor and session smart router cve-2026-103406"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-25",
+      "title": "Vates Xen Orchestra — CVE-2026-133469",
+      "description": "Vates Xen Orchestra contains an improper validation of specified type of input vulnerability that could allow an unauthenticated attacker to bypass authentication and perform actions with administrative privileges via a specially crafted authentication token containing an empty JSON object.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-133469",
+      "priority": "緊急（悪用確認）",
+      "search": "vates xen orchestra cve-2026-133469"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-25",
+      "title": "Danfoss AK-SM 800A Series — CVE-2025-41450",
+      "description": "Danfoss AK-SM 800A Series contains an improper authentication vulnerability that could allow an attacker to generate a web report exposing sensitive information, including internal IP addresses, usernames, and store names.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2025-41450",
+      "priority": "緊急（悪用確認）",
+      "search": "danfoss ak-sm 800a series cve-2025-41450"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-25",
+      "title": "Danfoss AK-SM 800A Series — CVE-2023-25914",
+      "description": "Danfoss AK-SM 800A Series contains a path traversal vulnerability that could allow an attacker to access and read underlying server system files via the XML interface.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2023-25914",
+      "priority": "緊急（悪用確認）",
+      "search": "danfoss ak-sm 800a series cve-2023-25914"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-25",
+      "title": "Danfoss AK-SM 800A Series — CVE-2023-25915",
+      "description": "Danfoss AK-SM 800A Series contains an improper input validation vulnerability that could allow a remote attacker to run arbitrary commands on the affected system.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2023-25915",
+      "priority": "緊急（悪用確認）",
+      "search": "danfoss ak-sm 800a series cve-2023-25915"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-25",
+      "title": "Mitel MiCollab — CVE-2026-133324",
+      "description": "Mitel MiCollab contains a not failing securely vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to bypass authentication controls and perform unauthorized actions.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-133324",
+      "priority": "緊急（悪用確認）",
+      "search": "mitel micollab cve-2026-133324"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-25",
+      "title": "Mitel MiCollab — CVE-2026-133275",
+      "description": "Mitel MiCollab contains an unrestricted upload of file with dangerous type vulnerability in the Audio, Web and Video Conferencing (AWV) component due to insufficient file type validation that could allow an unauthenticated attacker to upload arbitrary files.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-133275",
+      "priority": "緊急（悪用確認）",
+      "search": "mitel micollab cve-2026-133275"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-25",
+      "title": "Mitel MiCollab — CVE-2026-133311",
+      "description": "Mitel MiCollab contains a weak authentication vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to access sensitive information using a specific system-generated random identifier or pre-staged content.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-133311",
+      "priority": "緊急（悪用確認）",
+      "search": "mitel micollab cve-2026-133311"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-25",
+      "title": "Mitel MiCollab — CVE-2026-133303",
+      "description": "Mitel MiCollab contains an XML injection vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary commands using pre-staged malicious content.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-133303",
+      "priority": "緊急（悪用確認）",
+      "search": "mitel micollab cve-2026-133303"
+    },
+    {
+      "source": "CISA KEV",
+      "date": "2026-11-25",
+      "title": "Mitel MiCollab — CVE-2026-133323",
+      "description": "Mitel MiCollab contains an improper neutralization of special elements used in an OS command (OS command injection) vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary system commands.",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "cve": "CVE-2026-133323",
+      "priority": "緊急（悪用確認）",
+      "search": "mitel micollab cve-2026-133323"
+    },
+    {
+      "source": "JVN",
+      "date": "2026-11-25",
+      "title": "Apache Tomcatにおける複数の脆弱性（2026年11月19日）",
+      "description": "The Apache Software Foundationから、Apache Tomcatの11件の脆弱性に対してアドバイザリが公開されました。",
+      "action": "公式の対策情報を確認してください。",
+      "url": "https://jvn.jp/vu/JVNVU92527429/",
+      "cve": "",
+      "priority": "要確認",
+      "search": "apache tomcatにおける複数の脆弱性（2026年11月19日） the apache software foundationから、apache tomcatの11件の脆弱性に対してアドバイザリが公開されました。"
+    },
     {
       "source": "JVN",
       "date": "2026-11-25",
@@ -343,28 +486,6 @@
       "search": "エレコム製無線lanルータにおけるosコマンドインジェクションの脆弱性 エレコム株式会社が提供する無線lanルータには、osコマンドインジェクションの脆弱性が存在します。"
     },
     {
-      "source": "JVN",
-      "date": "2026-11-17",
-      "title": "複数製品におけるmacOS（APFS）とのUnicode正規化不整合によるファイルアクセス制限回避の脆弱性",
-      "description": "CERT/CCから本件に関するアドバイザリが公表されました。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU93605944/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "複数製品におけるmacos（apfs）とのunicode正規化不整合によるファイルアクセス制限回避の脆弱性 cert/ccから本件に関するアドバイザリが公表されました。"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-11-17",
-      "title": "富士電機製TELLUSにおける複数の脆弱性（2026年11月）",
-      "description": "富士電機株式会社が提供するTELLUSには、複数の脆弱性が存在します。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/vu/JVNVU97628215/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "富士電機製tellusにおける複数の脆弱性（2026年11月） 富士電機株式会社が提供するtellusには、複数の脆弱性が存在します。"
-    },
-    {
       "source": "CISA KEV",
       "date": "2026-11-13",
       "title": "UnrealIRCd UnrealIRCd — CVE-2026-114713",
@@ -385,17 +506,6 @@
       "cve": "CVE-2026-123039",
       "priority": "緊急（悪用確認）",
       "search": "check point multiple products cve-2026-123039"
-    },
-    {
-      "source": "JVN",
-      "date": "2026-11-13",
-      "title": "JetBrains製YouTrackにおけるクロスサイトスクリプティングの脆弱性",
-      "description": "JetBrains s.r.o.が提供するYouTrackには、クロスサイトスクリプティングの脆弱性が存在します。",
-      "action": "公式の対策情報を確認してください。",
-      "url": "https://jvn.jp/jp/JVN76799957/",
-      "cve": "",
-      "priority": "要確認",
-      "search": "jetbrains製youtrackにおけるクロスサイトスクリプティングの脆弱性 jetbrains s.r.o.が提供するyoutrackには、クロスサイトスクリプティングの脆弱性が存在します。"
     },
     {
       "source": "CISA KEV",
@@ -495,116 +605,6 @@
       "cve": "CVE-2026-116779",
       "priority": "緊急（悪用確認）",
       "search": "signalwire freeswitch cve-2026-116779"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-11-09",
-      "title": "IBM Aspera Faspex — CVE-2026-123218",
-      "description": "IBM Aspera Faspex contains an incorrect authorization vulnerability that could allow an authenticated user to craft a specific message to bypass authorization, causing privilege escalations.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-123218",
-      "priority": "緊急（悪用確認）",
-      "search": "ibm aspera faspex cve-2026-123218"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-11-06",
-      "title": "SonicWall SonicOS SSLVPN — CVE-2026-19868",
-      "description": "SonicWall SonicOS SSLVPN contains a use of single-factor authentication vulnerability that may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA).",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-19868",
-      "priority": "緊急（悪用確認）",
-      "search": "sonicwall sonicos sslvpn cve-2026-19868"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-11-04",
-      "title": "Apple Multiple Products — CVE-2024-27834",
-      "description": "Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerability which could allow an attacker with arbitrary read and write capability to bypass pointer authentication.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2024-27834",
-      "priority": "緊急（悪用確認）",
-      "search": "apple multiple products cve-2024-27834"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-11-03",
-      "title": "WordPress WordPress Core — CVE-2026-119977",
-      "description": "WordPress WordPress Core contains a time-of-check time-of-use (TOCTOU) race condition vulnerability that could allow unauthenticated attackers to execute code on the server during the upgrade window. This is due to predictable, web-accessible staging paths used during full-package core upgrades.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-119977",
-      "priority": "緊急（悪用確認）",
-      "search": "wordpress wordpress core cve-2026-119977"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-30",
-      "title": "Ivanti Connect Secure — CVE-2026-118527",
-      "description": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-118527",
-      "priority": "緊急（悪用確認）",
-      "search": "ivanti connect secure cve-2026-118527"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-30",
-      "title": "Ivanti Connect Secure — CVE-2026-111357",
-      "description": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-111357",
-      "priority": "緊急（悪用確認）",
-      "search": "ivanti connect secure cve-2026-111357"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-29",
-      "title": "GitLab Community Edition and Enterprise Edition — CVE-2026-97229",
-      "description": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-97229",
-      "priority": "緊急（悪用確認）",
-      "search": "gitlab community edition and enterprise edition cve-2026-97229"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-29",
-      "title": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software — CVE-2026-76418",
-      "description": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value to NULL pointer dereference vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-76418",
-      "priority": "緊急（悪用確認）",
-      "search": "cisco secure firewall asa software and cisco secure ftd software cve-2026-76418"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-28",
-      "title": "Broadcom VMware ESX — CVE-2026-41709",
-      "description": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-41709",
-      "priority": "緊急（悪用確認）",
-      "search": "broadcom vmware esx cve-2026-41709"
-    },
-    {
-      "source": "CISA KEV",
-      "date": "2026-10-28",
-      "title": "Linux Kernel — CVE-2026-46300",
-      "description": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input processing to decrypt shared fragments in place. This vulnerability can be chained with CVE-2026-109618 and CVE-2026-109619 to implant PHP webshells and run commands as root.",
-      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "cve": "CVE-2026-46300",
-      "priority": "緊急（悪用確認）",
-      "search": "linux kernel cve-2026-46300"
     }
   ],
   "warnings": [],
